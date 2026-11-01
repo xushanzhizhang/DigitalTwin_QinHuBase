@@ -4,11 +4,15 @@
 > 一套基于 **Web 三维 + 降阶物理模型 + 可解释决策 Agent** 的可运营数字孪生系统。
 
 <p align="center">
-  <b>先看运行效果视频（约 57 秒，含完整大屏、三维漫游、分区聚焦、实时决策）</b><br>
-  <a href="docs/demo.mp4">
-    <img src="docs/screenshots/03_鸟瞰全景.jpg" alt="点击播放运行效果视频" width="720">
+  <b>运行效果视频（约 57 秒，含完整大屏、三维漫游、分区聚焦、实时决策）</b><br>
+  <a href="https://github.com/xushanzhizhang/DigitalTwin_QinHuBase/releases/download/v0.1.0/demo.mp4">
+    <img src="docs/screenshots/03_鸟瞰全景.jpg" alt="点击查看运行效果视频" width="720">
   </a><br>
-  点击上方封面图即可播放/下载视频；也可直接打开文件：<a href="docs/demo.mp4">docs/demo.mp4</a>
+  <b>点击上方封面图即可下载视频（约 3.7 MB），下载后双击即可播放。</b><br>
+  其他查看方式：
+  <a href="https://github.com/xushanzhizhang/DigitalTwin_QinHuBase/releases/download/v0.1.0/demo.mp4">Release 视频直链</a>
+  ·
+  <a href="docs/demo.mp4">仓库内视频文件</a>
 </p>
 
 ---
