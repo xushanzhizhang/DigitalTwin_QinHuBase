@@ -5,8 +5,10 @@
 
 <p align="center">
   <b>先看运行效果视频（约 57 秒，含完整大屏、三维漫游、分区聚焦、实时决策）</b><br>
-  <video src="docs/demo.mp4" controls width="720"></video><br>
-  视频无法播放时，可直接打开文件：<a href="docs/demo.mp4">docs/demo.mp4</a>
+  <a href="docs/demo.mp4">
+    <img src="docs/screenshots/03_鸟瞰全景.jpg" alt="点击播放运行效果视频" width="720">
+  </a><br>
+  点击上方封面图即可播放/下载视频；也可直接打开文件：<a href="docs/demo.mp4">docs/demo.mp4</a>
 </p>
 
 ---
