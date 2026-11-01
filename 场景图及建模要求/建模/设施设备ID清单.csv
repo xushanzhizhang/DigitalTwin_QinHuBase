@@ -1,0 +1,794 @@
+﻿对象ID,名称,类型,区域,三维坐标X,三维坐标Y,三维坐标Z,关联设施ID,数据接口键
+QH-GATE-001,琴湖基地东侧主入口,entrance_gate,lake,108.0,0.0,0.0,,gate.status / gate.access_count
+QH-LAKE-001,琴湖主湖体,water_body,lake,62.0,0.0,4.0,,lake.level / lake.temperature / lake.water_quality
+QH-HORT-GH-01,园艺中心连栋1,greenhouse,hort,74.0,0.0,-47.0,,hort.01.temperature / hort.01.humidity / hort.01.co2 / hort.01.soil_moisture
+QH-HORT-GH-02,园艺中心连栋2,greenhouse,hort,83.0,0.0,-47.0,,hort.02.temperature / hort.02.humidity / hort.02.co2 / hort.02.soil_moisture
+QH-HORT-GH-03,园艺中心连栋3,greenhouse,hort,92.0,0.0,-47.0,,hort.03.temperature / hort.03.humidity / hort.03.co2 / hort.03.soil_moisture
+QH-PEONY-GH-01,芍药基地大棚1,greenhouse,peony,25.0,0.0,-36.0,,peony.01.temperature / peony.01.humidity / peony.01.soil_moisture
+QH-PEONY-GH-02,芍药基地大棚2,greenhouse,peony,25.0,0.0,-49.0,,peony.02.temperature / peony.02.humidity / peony.02.soil_moisture
+QH-PEONY-GH-03,芍药基地大棚3,greenhouse,peony,25.0,0.0,-62.0,,peony.03.temperature / peony.03.humidity / peony.03.soil_moisture
+QH-SMART-GH-01,数智农业主大棚,greenhouse,smart,9.0,0.0,10.0,,smart.temperature / smart.humidity / smart.co2 / smart.soil_moisture
+QH-HORT-FERT-01,园艺中心水肥一体机,fertigation,hort,101.0,0.0,-30.0,,hort.fertigation.ec / hort.fertigation.ph / hort.fertigation.flow
+QH-PEONY-FERT-01,芍药基地水肥一体机组,fertigation,peony,63.0,0.0,-49.0,,peony.fertigation.ec / peony.fertigation.ph / peony.fertigation.flow
+QH-SMART-FERT-01,数智农业水肥一体机,fertigation,smart,1.0,0.0,37.0,,smart.fertigation.ec / smart.fertigation.ph / smart.fertigation.flow
+QH-BASE-00183,东侧入口门柱,facility,base,108.0,2.0,8.0,,
+QH-BASE-00185,东侧入口门柱,facility,base,108.0,2.0,-8.0,,
+QH-BASE-00215,东侧入口门头,facility,base,106.9,3.55,-0.0,,
+QH-BASE-00216,东侧入口门头标识牌,facility,base,105.78,4.55,-0.0,,
+QH-LAKE-00218,琴湖水面,landscape,lake,62.92,0.12,5.75,,
+QH-LAKE-00277,湖岸天然石材驳岸块,landscape,lake,96.77,0.1,4.0,,
+QH-LAKE-00278,湖岸天然石材驳岸块,landscape,lake,96.77,0.44,4.0,,
+QH-LAKE-00279,湖岸天然石材驳岸块,landscape,lake,97.19,0.1,0.4,,
+QH-LAKE-00280,湖岸天然石材驳岸块,landscape,lake,97.19,0.44,0.4,,
+QH-LAKE-00281,湖岸天然石材驳岸块,landscape,lake,95.77,0.1,-3.04,,
+QH-LAKE-00282,湖岸天然石材驳岸块,landscape,lake,95.77,0.44,-3.04,,
+QH-LAKE-00283,湖岸天然石材驳岸块,landscape,lake,93.36,0.1,-6.1,,
+QH-LAKE-00284,湖岸天然石材驳岸块,landscape,lake,93.36,0.44,-6.1,,
+QH-LAKE-00285,湖岸天然石材驳岸块,landscape,lake,90.88,0.1,-8.97,,
+QH-LAKE-00286,湖岸天然石材驳岸块,landscape,lake,90.88,0.44,-8.97,,
+QH-LAKE-00287,湖岸天然石材驳岸块,landscape,lake,88.59,0.1,-11.87,,
+QH-LAKE-00288,湖岸天然石材驳岸块,landscape,lake,88.59,0.44,-11.87,,
+QH-LAKE-00289,湖岸天然石材驳岸块,landscape,lake,86.01,0.1,-14.68,,
+QH-LAKE-00290,湖岸天然石材驳岸块,landscape,lake,86.01,0.44,-14.68,,
+QH-LAKE-00291,湖岸天然石材驳岸块,landscape,lake,82.57,0.1,-16.85,,
+QH-LAKE-00292,湖岸天然石材驳岸块,landscape,lake,82.57,0.44,-16.85,,
+QH-LAKE-00293,湖岸天然石材驳岸块,landscape,lake,78.26,0.1,-17.91,,
+QH-LAKE-00294,湖岸天然石材驳岸块,landscape,lake,78.26,0.44,-17.91,,
+QH-LAKE-00295,湖岸天然石材驳岸块,landscape,lake,73.68,0.1,-17.93,,
+QH-LAKE-00296,湖岸天然石材驳岸块,landscape,lake,73.68,0.44,-17.93,,
+QH-LAKE-00297,湖岸天然石材驳岸块,landscape,lake,69.46,0.1,-17.65,,
+QH-LAKE-00298,湖岸天然石材驳岸块,landscape,lake,69.46,0.44,-17.65,,
+QH-LAKE-00299,湖岸天然石材驳岸块,landscape,lake,65.71,0.1,-17.91,,
+QH-LAKE-00300,湖岸天然石材驳岸块,landscape,lake,65.71,0.44,-17.91,,
+QH-LAKE-00301,湖岸天然石材驳岸块,landscape,lake,62.0,0.1,-18.93,,
+QH-LAKE-00302,湖岸天然石材驳岸块,landscape,lake,62.0,0.44,-18.93,,
+QH-LAKE-00303,湖岸天然石材驳岸块,landscape,lake,57.91,0.1,-20.16,,
+QH-LAKE-00304,湖岸天然石材驳岸块,landscape,lake,57.91,0.44,-20.16,,
+QH-LAKE-00305,湖岸天然石材驳岸块,landscape,lake,53.49,0.1,-20.7,,
+QH-LAKE-00306,湖岸天然石材驳岸块,landscape,lake,53.49,0.44,-20.7,,
+QH-LAKE-00307,湖岸天然石材驳岸块,landscape,lake,49.21,0.1,-20.02,,
+QH-LAKE-00308,湖岸天然石材驳岸块,landscape,lake,49.21,0.44,-20.02,,
+QH-LAKE-00309,湖岸天然石材驳岸块,landscape,lake,45.41,0.1,-18.35,,
+QH-LAKE-00310,湖岸天然石材驳岸块,landscape,lake,45.41,0.44,-18.35,,
+QH-LAKE-00311,湖岸天然石材驳岸块,landscape,lake,41.93,0.1,-16.34,,
+QH-LAKE-00312,湖岸天然石材驳岸块,landscape,lake,41.93,0.44,-16.34,,
+QH-LAKE-00313,湖岸天然石材驳岸块,landscape,lake,38.33,0.1,-14.41,,
+QH-LAKE-00314,湖岸天然石材驳岸块,landscape,lake,38.33,0.44,-14.41,,
+QH-LAKE-00315,湖岸天然石材驳岸块,landscape,lake,34.51,0.1,-12.4,,
+QH-LAKE-00316,湖岸天然石材驳岸块,landscape,lake,34.51,0.44,-12.4,,
+QH-LAKE-00317,湖岸天然石材驳岸块,landscape,lake,31.08,0.1,-9.88,,
+QH-LAKE-00318,湖岸天然石材驳岸块,landscape,lake,31.08,0.44,-9.88,,
+QH-LAKE-00319,湖岸天然石材驳岸块,landscape,lake,29.04,0.1,-6.62,,
+QH-LAKE-00320,湖岸天然石材驳岸块,landscape,lake,29.04,0.44,-6.62,,
+QH-LAKE-00321,湖岸天然石材驳岸块,landscape,lake,28.93,0.1,-2.89,,
+QH-LAKE-00322,湖岸天然石材驳岸块,landscape,lake,28.93,0.44,-2.89,,
+QH-LAKE-00323,湖岸天然石材驳岸块,landscape,lake,30.3,0.1,0.75,,
+QH-LAKE-00324,湖岸天然石材驳岸块,landscape,lake,30.3,0.44,0.75,,
+QH-LAKE-00325,湖岸天然石材驳岸块,landscape,lake,31.97,0.1,4.0,,
+QH-LAKE-00326,湖岸天然石材驳岸块,landscape,lake,31.97,0.44,4.0,,
+QH-LAKE-00327,湖岸天然石材驳岸块,landscape,lake,32.94,0.1,6.98,,
+QH-LAKE-00328,湖岸天然石材驳岸块,landscape,lake,32.94,0.44,6.98,,
+QH-LAKE-00329,湖岸天然石材驳岸块,landscape,lake,33.18,0.1,10.01,,
+QH-LAKE-00330,湖岸天然石材驳岸块,landscape,lake,33.18,0.44,10.01,,
+QH-LAKE-00331,湖岸天然石材驳岸块,landscape,lake,33.49,0.1,13.19,,
+QH-LAKE-00332,湖岸天然石材驳岸块,landscape,lake,33.49,0.44,13.19,,
+QH-LAKE-00333,湖岸天然石材驳岸块,landscape,lake,34.76,0.1,16.23,,
+QH-LAKE-00334,湖岸天然石材驳岸块,landscape,lake,34.76,0.44,16.23,,
+QH-LAKE-00335,湖岸天然石材驳岸块,landscape,lake,37.18,0.1,18.81,,
+QH-LAKE-00336,湖岸天然石材驳岸块,landscape,lake,37.18,0.44,18.81,,
+QH-LAKE-00337,湖岸天然石材驳岸块,landscape,lake,40.19,0.1,20.96,,
+QH-LAKE-00338,湖岸天然石材驳岸块,landscape,lake,40.19,0.44,20.96,,
+QH-LAKE-00339,湖岸天然石材驳岸块,landscape,lake,43.13,0.1,23.13,,
+QH-LAKE-00340,湖岸天然石材驳岸块,landscape,lake,43.13,0.44,23.13,,
+QH-LAKE-00341,湖岸天然石材驳岸块,landscape,lake,45.86,0.1,25.74,,
+QH-LAKE-00342,湖岸天然石材驳岸块,landscape,lake,45.86,0.44,25.74,,
+QH-LAKE-00343,湖岸天然石材驳岸块,landscape,lake,48.88,0.1,28.63,,
+QH-LAKE-00344,湖岸天然石材驳岸块,landscape,lake,48.88,0.44,28.63,,
+QH-LAKE-00345,湖岸天然石材驳岸块,landscape,lake,52.69,0.1,31.03,,
+QH-LAKE-00346,湖岸天然石材驳岸块,landscape,lake,52.69,0.44,31.03,,
+QH-LAKE-00347,湖岸天然石材驳岸块,landscape,lake,57.25,0.1,32.06,,
+QH-LAKE-00348,湖岸天然石材驳岸块,landscape,lake,57.25,0.44,32.06,,
+QH-LAKE-00349,湖岸天然石材驳岸块,landscape,lake,62.0,0.1,31.47,,
+QH-LAKE-00350,湖岸天然石材驳岸块,landscape,lake,62.0,0.44,31.47,,
+QH-LAKE-00351,湖岸天然石材驳岸块,landscape,lake,66.37,0.1,29.8,,
+QH-LAKE-00352,湖岸天然石材驳岸块,landscape,lake,66.37,0.44,29.8,,
+QH-LAKE-00353,湖岸天然石材驳岸块,landscape,lake,70.26,0.1,27.98,,
+QH-LAKE-00354,湖岸天然石材驳岸块,landscape,lake,70.26,0.44,27.98,,
+QH-LAKE-00355,湖岸天然石材驳岸块,landscape,lake,74.01,0.1,26.54,,
+QH-LAKE-00356,湖岸天然石材驳岸块,landscape,lake,74.01,0.44,26.54,,
+QH-LAKE-00357,湖岸天然石材驳岸块,landscape,lake,77.81,0.1,25.29,,
+QH-LAKE-00358,湖岸天然石材驳岸块,landscape,lake,77.81,0.44,25.29,,
+QH-LAKE-00359,湖岸天然石材驳岸块,landscape,lake,81.38,0.1,23.64,,
+QH-LAKE-00360,湖岸天然石材驳岸块,landscape,lake,81.38,0.44,23.64,,
+QH-LAKE-00361,湖岸天然石材驳岸块,landscape,lake,84.16,0.1,21.23,,
+QH-LAKE-00362,湖岸天然石材驳岸块,landscape,lake,84.16,0.44,21.23,,
+QH-LAKE-00363,湖岸天然石材驳岸块,landscape,lake,85.92,0.1,18.28,,
+QH-LAKE-00364,湖岸天然石材驳岸块,landscape,lake,85.92,0.44,18.28,,
+QH-LAKE-00365,湖岸天然石材驳岸块,landscape,lake,87.2,0.1,15.32,,
+QH-LAKE-00366,湖岸天然石材驳岸块,landscape,lake,87.2,0.44,15.32,,
+QH-LAKE-00367,湖岸天然石材驳岸块,landscape,lake,88.91,0.1,12.67,,
+QH-LAKE-00368,湖岸天然石材驳岸块,landscape,lake,88.91,0.44,12.67,,
+QH-LAKE-00369,湖岸天然石材驳岸块,landscape,lake,91.52,0.1,10.15,,
+QH-LAKE-00370,湖岸天然石材驳岸块,landscape,lake,91.52,0.44,10.15,,
+QH-LAKE-00371,湖岸天然石材驳岸块,landscape,lake,94.55,0.1,7.33,,
+QH-LAKE-00372,湖岸天然石材驳岸块,landscape,lake,94.55,0.44,7.33,,
+QH-LAKE-00518,木栈桥桥面板,landscape,lake,30.61,0.69,4.0,,
+QH-LAKE-00519,木栈桥桥面板,landscape,lake,31.82,0.72,4.0,,
+QH-LAKE-00520,木栈桥桥面板,landscape,lake,33.03,0.75,4.0,,
+QH-LAKE-00521,木栈桥桥面板,landscape,lake,34.24,0.78,4.0,,
+QH-LAKE-00522,木栈桥桥面板,landscape,lake,35.45,0.8,4.0,,
+QH-LAKE-00523,木栈桥桥面板,landscape,lake,36.66,0.82,4.0,,
+QH-LAKE-00524,木栈桥桥面板,landscape,lake,37.87,0.84,4.0,,
+QH-LAKE-00525,木栈桥桥面板,landscape,lake,39.08,0.85,4.0,,
+QH-LAKE-00526,木栈桥桥面板,landscape,lake,40.29,0.86,4.0,,
+QH-LAKE-00527,木栈桥桥面板,landscape,lake,41.5,0.86,4.0,,
+QH-LAKE-00528,木栈桥桥面板,landscape,lake,42.71,0.86,4.0,,
+QH-LAKE-00529,木栈桥桥面板,landscape,lake,43.92,0.85,4.0,,
+QH-LAKE-00530,木栈桥桥面板,landscape,lake,45.13,0.84,4.0,,
+QH-LAKE-00531,木栈桥桥面板,landscape,lake,46.34,0.82,4.0,,
+QH-LAKE-00532,木栈桥桥面板,landscape,lake,47.55,0.8,4.0,,
+QH-LAKE-00533,木栈桥桥面板,landscape,lake,48.76,0.78,4.0,,
+QH-LAKE-00534,木栈桥桥面板,landscape,lake,49.97,0.75,4.0,,
+QH-LAKE-00535,木栈桥桥面板,landscape,lake,51.18,0.72,4.0,,
+QH-LAKE-00536,木栈桥桥面板,landscape,lake,52.39,0.69,4.0,,
+QH-LAKE-00557,木栈桥桥面板,landscape,lake,69.61,0.69,4.0,,
+QH-LAKE-00558,木栈桥桥面板,landscape,lake,70.82,0.72,4.0,,
+QH-LAKE-00559,木栈桥桥面板,landscape,lake,72.03,0.75,4.0,,
+QH-LAKE-00560,木栈桥桥面板,landscape,lake,73.24,0.78,4.0,,
+QH-LAKE-00561,木栈桥桥面板,landscape,lake,74.45,0.8,4.0,,
+QH-LAKE-00562,木栈桥桥面板,landscape,lake,75.66,0.82,4.0,,
+QH-LAKE-00563,木栈桥桥面板,landscape,lake,76.87,0.84,4.0,,
+QH-LAKE-00564,木栈桥桥面板,landscape,lake,78.08,0.85,4.0,,
+QH-LAKE-00565,木栈桥桥面板,landscape,lake,79.29,0.86,4.0,,
+QH-LAKE-00566,木栈桥桥面板,landscape,lake,80.5,0.86,4.0,,
+QH-LAKE-00567,木栈桥桥面板,landscape,lake,81.71,0.86,4.0,,
+QH-LAKE-00568,木栈桥桥面板,landscape,lake,82.92,0.85,4.0,,
+QH-LAKE-00569,木栈桥桥面板,landscape,lake,84.13,0.84,4.0,,
+QH-LAKE-00570,木栈桥桥面板,landscape,lake,85.34,0.82,4.0,,
+QH-LAKE-00571,木栈桥桥面板,landscape,lake,86.55,0.8,4.0,,
+QH-LAKE-00572,木栈桥桥面板,landscape,lake,87.76,0.78,4.0,,
+QH-LAKE-00573,木栈桥桥面板,landscape,lake,88.97,0.75,4.0,,
+QH-LAKE-00574,木栈桥桥面板,landscape,lake,90.18,0.72,4.0,,
+QH-LAKE-00575,木栈桥桥面板,landscape,lake,91.39,0.69,4.0,,
+QH-HORT-00622,园艺中心_连栋1_侧墙透光板,facility,hort,69.6,1.07,-47.0,QH-HORT-GH-01,
+QH-HORT-00623,园艺中心_连栋1_侧墙透光板,facility,hort,78.4,1.07,-47.0,QH-HORT-GH-01,
+QH-HORT-00624,园艺中心_连栋1_拱形棚膜,facility,hort,74.0,3.6,-47.0,QH-HORT-GH-01,
+QH-HORT-00625,园艺中心_连栋1_端墙透光板,facility,hort,74.0,2.52,-23.0,QH-HORT-GH-01,
+QH-HORT-00626,园艺中心_连栋1_端墙透光板,facility,hort,74.0,2.52,-71.0,QH-HORT-GH-01,
+QH-HORT-00627,园艺中心_连栋1_钢结构拱架,greenhouse_component,hort,74.0,3.63,-23.0,QH-HORT-GH-01,
+QH-HORT-00630,园艺中心_连栋1_钢结构拱架,greenhouse_component,hort,74.0,3.63,-27.0,QH-HORT-GH-01,
+QH-HORT-00633,园艺中心_连栋1_钢结构拱架,greenhouse_component,hort,74.0,3.63,-31.0,QH-HORT-GH-01,
+QH-HORT-00636,园艺中心_连栋1_钢结构拱架,greenhouse_component,hort,74.0,3.63,-35.0,QH-HORT-GH-01,
+QH-HORT-00639,园艺中心_连栋1_钢结构拱架,greenhouse_component,hort,74.0,3.63,-39.0,QH-HORT-GH-01,
+QH-HORT-00642,园艺中心_连栋1_钢结构拱架,greenhouse_component,hort,74.0,3.63,-43.0,QH-HORT-GH-01,
+QH-HORT-00645,园艺中心_连栋1_钢结构拱架,greenhouse_component,hort,74.0,3.63,-47.0,QH-HORT-GH-01,
+QH-HORT-00648,园艺中心_连栋1_钢结构拱架,greenhouse_component,hort,74.0,3.63,-51.0,QH-HORT-GH-01,
+QH-HORT-00651,园艺中心_连栋1_钢结构拱架,greenhouse_component,hort,74.0,3.63,-55.0,QH-HORT-GH-01,
+QH-HORT-00654,园艺中心_连栋1_钢结构拱架,greenhouse_component,hort,74.0,3.63,-59.0,QH-HORT-GH-01,
+QH-HORT-00657,园艺中心_连栋1_钢结构拱架,greenhouse_component,hort,74.0,3.63,-63.0,QH-HORT-GH-01,
+QH-HORT-00660,园艺中心_连栋1_钢结构拱架,greenhouse_component,hort,74.0,3.63,-67.0,QH-HORT-GH-01,
+QH-HORT-00663,园艺中心_连栋1_钢结构拱架,greenhouse_component,hort,74.0,3.63,-71.0,QH-HORT-GH-01,
+QH-HORT-00666,园艺中心_连栋1_纵向檩条,facility,hort,69.6,2.15,-47.0,QH-HORT-GH-01,
+QH-HORT-00667,园艺中心_连栋1_纵向檩条,facility,hort,71.14,4.35,-47.0,QH-HORT-GH-01,
+QH-HORT-00668,园艺中心_连栋1_纵向檩条,facility,hort,74.0,5.05,-47.0,QH-HORT-GH-01,
+QH-HORT-00669,园艺中心_连栋1_纵向檩条,facility,hort,76.86,4.35,-47.0,QH-HORT-GH-01,
+QH-HORT-00670,园艺中心_连栋1_纵向檩条,facility,hort,78.4,2.15,-47.0,QH-HORT-GH-01,
+QH-HORT-00679,园艺中心_连栋1_滴灌管线,irrigation,hort,71.1,0.3,-47.0,QH-HORT-GH-01,QH-HORT-00679.flow / QH-HORT-00679.status
+QH-HORT-00681,园艺中心_连栋1_滴灌管线,irrigation,hort,73.03,0.3,-47.0,QH-HORT-GH-01,QH-HORT-00681.flow / QH-HORT-00681.status
+QH-HORT-00683,园艺中心_连栋1_滴灌管线,irrigation,hort,74.97,0.3,-47.0,QH-HORT-GH-01,QH-HORT-00683.flow / QH-HORT-00683.status
+QH-HORT-00685,园艺中心_连栋1_滴灌管线,irrigation,hort,76.9,0.3,-47.0,QH-HORT-GH-01,QH-HORT-00685.flow / QH-HORT-00685.status
+QH-HORT-00686,园艺中心_连栋1_内部作物行,facility,hort,74.03,0.44,-47.0,QH-HORT-GH-01,
+QH-HORT-00764,园艺中心_连栋1_喷灌支管,irrigation,hort,74.0,3.61,-27.0,QH-HORT-GH-01,QH-HORT-00764.flow / QH-HORT-00764.status
+QH-HORT-00769,园艺中心_连栋1_喷灌支管,irrigation,hort,74.0,3.61,-40.33,QH-HORT-GH-01,QH-HORT-00769.flow / QH-HORT-00769.status
+QH-HORT-00774,园艺中心_连栋1_喷灌支管,irrigation,hort,74.0,3.61,-53.67,QH-HORT-GH-01,QH-HORT-00774.flow / QH-HORT-00774.status
+QH-HORT-00779,园艺中心_连栋1_喷灌支管,irrigation,hort,74.0,3.61,-67.0,QH-HORT-GH-01,QH-HORT-00779.flow / QH-HORT-00779.status
+QH-HORT-00784,园艺中心_连栋1_端墙排风机外框,ventilation,hort,74.0,1.55,-22.92,QH-HORT-GH-01,QH-HORT-00784.speed / QH-HORT-00784.status
+QH-HORT-00785,园艺中心_连栋1_排风机电机轴,ventilation,hort,74.0,1.55,-22.92,QH-HORT-GH-01,QH-HORT-00785.speed / QH-HORT-00785.status
+QH-HORT-00786,园艺中心_连栋1_排风机叶片,ventilation,hort,74.34,1.55,-22.92,QH-HORT-GH-01,QH-HORT-00786.speed / QH-HORT-00786.status
+QH-HORT-00787,园艺中心_连栋1_排风机叶片,ventilation,hort,74.11,1.87,-22.92,QH-HORT-GH-01,QH-HORT-00787.speed / QH-HORT-00787.status
+QH-HORT-00788,园艺中心_连栋1_排风机叶片,ventilation,hort,73.72,1.75,-22.92,QH-HORT-GH-01,QH-HORT-00788.speed / QH-HORT-00788.status
+QH-HORT-00789,园艺中心_连栋1_排风机叶片,ventilation,hort,73.72,1.35,-22.92,QH-HORT-GH-01,QH-HORT-00789.speed / QH-HORT-00789.status
+QH-HORT-00790,园艺中心_连栋1_排风机叶片,ventilation,hort,74.11,1.23,-22.92,QH-HORT-GH-01,QH-HORT-00790.speed / QH-HORT-00790.status
+QH-HORT-00791,园艺中心_连栋1_排风机防护网,ventilation,hort,73.58,1.55,-22.86,QH-HORT-GH-01,QH-HORT-00791.speed / QH-HORT-00791.status
+QH-HORT-00792,园艺中心_连栋1_排风机防护网,ventilation,hort,73.86,1.55,-22.86,QH-HORT-GH-01,QH-HORT-00792.speed / QH-HORT-00792.status
+QH-HORT-00793,园艺中心_连栋1_排风机防护网,ventilation,hort,74.14,1.55,-22.86,QH-HORT-GH-01,QH-HORT-00793.speed / QH-HORT-00793.status
+QH-HORT-00794,园艺中心_连栋1_排风机防护网,ventilation,hort,74.42,1.55,-22.86,QH-HORT-GH-01,QH-HORT-00794.speed / QH-HORT-00794.status
+QH-HORT-00795,园艺中心_连栋1_端墙排风机外框,ventilation,hort,74.0,1.55,-71.08,QH-HORT-GH-01,QH-HORT-00795.speed / QH-HORT-00795.status
+QH-HORT-00796,园艺中心_连栋1_排风机电机轴,ventilation,hort,74.0,1.55,-71.08,QH-HORT-GH-01,QH-HORT-00796.speed / QH-HORT-00796.status
+QH-HORT-00797,园艺中心_连栋1_排风机叶片,ventilation,hort,74.34,1.55,-71.08,QH-HORT-GH-01,QH-HORT-00797.speed / QH-HORT-00797.status
+QH-HORT-00798,园艺中心_连栋1_排风机叶片,ventilation,hort,74.11,1.87,-71.08,QH-HORT-GH-01,QH-HORT-00798.speed / QH-HORT-00798.status
+QH-HORT-00799,园艺中心_连栋1_排风机叶片,ventilation,hort,73.72,1.75,-71.08,QH-HORT-GH-01,QH-HORT-00799.speed / QH-HORT-00799.status
+QH-HORT-00800,园艺中心_连栋1_排风机叶片,ventilation,hort,73.72,1.35,-71.08,QH-HORT-GH-01,QH-HORT-00800.speed / QH-HORT-00800.status
+QH-HORT-00801,园艺中心_连栋1_排风机叶片,ventilation,hort,74.11,1.23,-71.08,QH-HORT-GH-01,QH-HORT-00801.speed / QH-HORT-00801.status
+QH-HORT-00802,园艺中心_连栋1_排风机防护网,ventilation,hort,73.58,1.55,-71.02,QH-HORT-GH-01,QH-HORT-00802.speed / QH-HORT-00802.status
+QH-HORT-00803,园艺中心_连栋1_排风机防护网,ventilation,hort,73.86,1.55,-71.02,QH-HORT-GH-01,QH-HORT-00803.speed / QH-HORT-00803.status
+QH-HORT-00804,园艺中心_连栋1_排风机防护网,ventilation,hort,74.14,1.55,-71.02,QH-HORT-GH-01,QH-HORT-00804.speed / QH-HORT-00804.status
+QH-HORT-00805,园艺中心_连栋1_排风机防护网,ventilation,hort,74.42,1.55,-71.02,QH-HORT-GH-01,QH-HORT-00805.speed / QH-HORT-00805.status
+QH-HORT-00806,园艺中心_连栋1_循环风扇吊杆,ventilation,hort,74.0,3.98,-31.0,QH-HORT-GH-01,QH-HORT-00806.speed / QH-HORT-00806.status
+QH-HORT-00807,园艺中心_连栋1_循环风扇电机,ventilation,hort,74.0,4.22,-31.0,QH-HORT-GH-01,QH-HORT-00807.speed / QH-HORT-00807.status
+QH-HORT-00808,园艺中心_连栋1_循环风扇叶片,ventilation,hort,74.37,4.22,-31.0,QH-HORT-GH-01,QH-HORT-00808.speed / QH-HORT-00808.status
+QH-HORT-00809,园艺中心_连栋1_循环风扇叶片,ventilation,hort,74.0,4.59,-31.0,QH-HORT-GH-01,QH-HORT-00809.speed / QH-HORT-00809.status
+QH-HORT-00810,园艺中心_连栋1_循环风扇叶片,ventilation,hort,73.63,4.22,-31.0,QH-HORT-GH-01,QH-HORT-00810.speed / QH-HORT-00810.status
+QH-HORT-00811,园艺中心_连栋1_循环风扇叶片,ventilation,hort,74.0,3.85,-31.0,QH-HORT-GH-01,QH-HORT-00811.speed / QH-HORT-00811.status
+QH-HORT-00812,园艺中心_连栋1_循环风扇吊杆,ventilation,hort,74.0,3.98,-47.0,QH-HORT-GH-01,QH-HORT-00812.speed / QH-HORT-00812.status
+QH-HORT-00813,园艺中心_连栋1_循环风扇电机,ventilation,hort,74.0,4.22,-47.0,QH-HORT-GH-01,QH-HORT-00813.speed / QH-HORT-00813.status
+QH-HORT-00814,园艺中心_连栋1_循环风扇叶片,ventilation,hort,74.37,4.22,-47.0,QH-HORT-GH-01,QH-HORT-00814.speed / QH-HORT-00814.status
+QH-HORT-00815,园艺中心_连栋1_循环风扇叶片,ventilation,hort,74.0,4.59,-47.0,QH-HORT-GH-01,QH-HORT-00815.speed / QH-HORT-00815.status
+QH-HORT-00816,园艺中心_连栋1_循环风扇叶片,ventilation,hort,73.63,4.22,-47.0,QH-HORT-GH-01,QH-HORT-00816.speed / QH-HORT-00816.status
+QH-HORT-00817,园艺中心_连栋1_循环风扇叶片,ventilation,hort,74.0,3.85,-47.0,QH-HORT-GH-01,QH-HORT-00817.speed / QH-HORT-00817.status
+QH-HORT-00818,园艺中心_连栋1_循环风扇吊杆,ventilation,hort,74.0,3.98,-63.0,QH-HORT-GH-01,QH-HORT-00818.speed / QH-HORT-00818.status
+QH-HORT-00819,园艺中心_连栋1_循环风扇电机,ventilation,hort,74.0,4.22,-63.0,QH-HORT-GH-01,QH-HORT-00819.speed / QH-HORT-00819.status
+QH-HORT-00820,园艺中心_连栋1_循环风扇叶片,ventilation,hort,74.37,4.22,-63.0,QH-HORT-GH-01,QH-HORT-00820.speed / QH-HORT-00820.status
+QH-HORT-00821,园艺中心_连栋1_循环风扇叶片,ventilation,hort,74.0,4.59,-63.0,QH-HORT-GH-01,QH-HORT-00821.speed / QH-HORT-00821.status
+QH-HORT-00822,园艺中心_连栋1_循环风扇叶片,ventilation,hort,73.63,4.22,-63.0,QH-HORT-GH-01,QH-HORT-00822.speed / QH-HORT-00822.status
+QH-HORT-00823,园艺中心_连栋1_循环风扇叶片,ventilation,hort,74.0,3.85,-63.0,QH-HORT-GH-01,QH-HORT-00823.speed / QH-HORT-00823.status
+QH-HORT-00824,园艺中心_连栋1_环境控制柜,facility,hort,77.17,1.05,-25.2,QH-HORT-GH-01,
+QH-HORT-00825,园艺中心_连栋1_控制柜操作面板,facility,hort,77.17,1.3,-24.95,QH-HORT-GH-01,
+QH-HORT-00827,园艺中心_连栋1_环境传感器立杆,sensor,hort,75.53999999999999,1.47,-35.0,QH-HORT-GH-01,QH-HORT-00827.value / QH-HORT-00827.status
+QH-HORT-00828,园艺中心_连栋1_温湿度传感器,sensor,hort,75.53999999999999,2.45,-35.0,QH-HORT-GH-01,QH-HORT-00828.value / QH-HORT-00828.status
+QH-HORT-00829,园艺中心_连栋1_传感器状态灯,sensor,hort,75.53999999999999,2.72,-35.0,QH-HORT-GH-01,QH-HORT-00829.value / QH-HORT-00829.status
+QH-HORT-00830,园艺中心_连栋1_土壤湿度探头,sensor,hort,74.22,0.42,-35.0,QH-HORT-GH-01,QH-HORT-00830.value / QH-HORT-00830.status
+QH-HORT-00831,园艺中心_连栋1_土壤湿度传感器,sensor,hort,74.22,0.76,-35.0,QH-HORT-GH-01,QH-HORT-00831.value / QH-HORT-00831.status
+QH-HORT-00832,园艺中心_连栋1_环境传感器立杆,sensor,hort,75.53999999999999,1.47,-59.0,QH-HORT-GH-01,QH-HORT-00832.value / QH-HORT-00832.status
+QH-HORT-00833,园艺中心_连栋1_温湿度传感器,sensor,hort,75.53999999999999,2.45,-59.0,QH-HORT-GH-01,QH-HORT-00833.value / QH-HORT-00833.status
+QH-HORT-00834,园艺中心_连栋1_传感器状态灯,sensor,hort,75.53999999999999,2.72,-59.0,QH-HORT-GH-01,QH-HORT-00834.value / QH-HORT-00834.status
+QH-HORT-00835,园艺中心_连栋1_土壤湿度探头,sensor,hort,74.22,0.42,-59.0,QH-HORT-GH-01,QH-HORT-00835.value / QH-HORT-00835.status
+QH-HORT-00836,园艺中心_连栋1_土壤湿度传感器,sensor,hort,74.22,0.76,-59.0,QH-HORT-GH-01,QH-HORT-00836.value / QH-HORT-00836.status
+QH-HORT-00837,园艺中心_连栋2_侧墙透光板,facility,hort,78.6,1.07,-47.0,QH-HORT-GH-02,
+QH-HORT-00838,园艺中心_连栋2_侧墙透光板,facility,hort,87.4,1.07,-47.0,QH-HORT-GH-02,
+QH-HORT-00839,园艺中心_连栋2_拱形棚膜,facility,hort,83.0,3.6,-47.0,QH-HORT-GH-02,
+QH-HORT-00840,园艺中心_连栋2_端墙透光板,facility,hort,83.0,2.52,-23.0,QH-HORT-GH-02,
+QH-HORT-00841,园艺中心_连栋2_端墙透光板,facility,hort,83.0,2.52,-71.0,QH-HORT-GH-02,
+QH-HORT-00842,园艺中心_连栋2_钢结构拱架,greenhouse_component,hort,83.0,3.63,-23.0,QH-HORT-GH-02,
+QH-HORT-00845,园艺中心_连栋2_钢结构拱架,greenhouse_component,hort,83.0,3.63,-27.0,QH-HORT-GH-02,
+QH-HORT-00848,园艺中心_连栋2_钢结构拱架,greenhouse_component,hort,83.0,3.63,-31.0,QH-HORT-GH-02,
+QH-HORT-00851,园艺中心_连栋2_钢结构拱架,greenhouse_component,hort,83.0,3.63,-35.0,QH-HORT-GH-02,
+QH-HORT-00854,园艺中心_连栋2_钢结构拱架,greenhouse_component,hort,83.0,3.63,-39.0,QH-HORT-GH-02,
+QH-HORT-00857,园艺中心_连栋2_钢结构拱架,greenhouse_component,hort,83.0,3.63,-43.0,QH-HORT-GH-02,
+QH-HORT-00860,园艺中心_连栋2_钢结构拱架,greenhouse_component,hort,83.0,3.63,-47.0,QH-HORT-GH-02,
+QH-HORT-00863,园艺中心_连栋2_钢结构拱架,greenhouse_component,hort,83.0,3.63,-51.0,QH-HORT-GH-02,
+QH-HORT-00866,园艺中心_连栋2_钢结构拱架,greenhouse_component,hort,83.0,3.63,-55.0,QH-HORT-GH-02,
+QH-HORT-00869,园艺中心_连栋2_钢结构拱架,greenhouse_component,hort,83.0,3.63,-59.0,QH-HORT-GH-02,
+QH-HORT-00872,园艺中心_连栋2_钢结构拱架,greenhouse_component,hort,83.0,3.63,-63.0,QH-HORT-GH-02,
+QH-HORT-00875,园艺中心_连栋2_钢结构拱架,greenhouse_component,hort,83.0,3.63,-67.0,QH-HORT-GH-02,
+QH-HORT-00878,园艺中心_连栋2_钢结构拱架,greenhouse_component,hort,83.0,3.63,-71.0,QH-HORT-GH-02,
+QH-HORT-00881,园艺中心_连栋2_纵向檩条,facility,hort,78.6,2.15,-47.0,QH-HORT-GH-02,
+QH-HORT-00882,园艺中心_连栋2_纵向檩条,facility,hort,80.14,4.35,-47.0,QH-HORT-GH-02,
+QH-HORT-00883,园艺中心_连栋2_纵向檩条,facility,hort,83.0,5.05,-47.0,QH-HORT-GH-02,
+QH-HORT-00884,园艺中心_连栋2_纵向檩条,facility,hort,85.86,4.35,-47.0,QH-HORT-GH-02,
+QH-HORT-00885,园艺中心_连栋2_纵向檩条,facility,hort,87.4,2.15,-47.0,QH-HORT-GH-02,
+QH-HORT-00894,园艺中心_连栋2_滴灌管线,irrigation,hort,80.1,0.3,-47.0,QH-HORT-GH-02,QH-HORT-00894.flow / QH-HORT-00894.status
+QH-HORT-00896,园艺中心_连栋2_滴灌管线,irrigation,hort,82.03,0.3,-47.0,QH-HORT-GH-02,QH-HORT-00896.flow / QH-HORT-00896.status
+QH-HORT-00898,园艺中心_连栋2_滴灌管线,irrigation,hort,83.97,0.3,-47.0,QH-HORT-GH-02,QH-HORT-00898.flow / QH-HORT-00898.status
+QH-HORT-00900,园艺中心_连栋2_滴灌管线,irrigation,hort,85.9,0.3,-47.0,QH-HORT-GH-02,QH-HORT-00900.flow / QH-HORT-00900.status
+QH-HORT-00901,园艺中心_连栋2_内部作物行,facility,hort,83.03,0.44,-47.0,QH-HORT-GH-02,
+QH-HORT-00979,园艺中心_连栋2_喷灌支管,irrigation,hort,83.0,3.61,-27.0,QH-HORT-GH-02,QH-HORT-00979.flow / QH-HORT-00979.status
+QH-HORT-00984,园艺中心_连栋2_喷灌支管,irrigation,hort,83.0,3.61,-40.33,QH-HORT-GH-02,QH-HORT-00984.flow / QH-HORT-00984.status
+QH-HORT-00989,园艺中心_连栋2_喷灌支管,irrigation,hort,83.0,3.61,-53.67,QH-HORT-GH-02,QH-HORT-00989.flow / QH-HORT-00989.status
+QH-HORT-00994,园艺中心_连栋2_喷灌支管,irrigation,hort,83.0,3.61,-67.0,QH-HORT-GH-02,QH-HORT-00994.flow / QH-HORT-00994.status
+QH-HORT-00999,园艺中心_连栋2_端墙排风机外框,ventilation,hort,83.0,1.55,-22.92,QH-HORT-GH-02,QH-HORT-00999.speed / QH-HORT-00999.status
+QH-HORT-01000,园艺中心_连栋2_排风机电机轴,ventilation,hort,83.0,1.55,-22.92,QH-HORT-GH-02,QH-HORT-01000.speed / QH-HORT-01000.status
+QH-HORT-01001,园艺中心_连栋2_排风机叶片,ventilation,hort,83.34,1.55,-22.92,QH-HORT-GH-02,QH-HORT-01001.speed / QH-HORT-01001.status
+QH-HORT-01002,园艺中心_连栋2_排风机叶片,ventilation,hort,83.11,1.87,-22.92,QH-HORT-GH-02,QH-HORT-01002.speed / QH-HORT-01002.status
+QH-HORT-01003,园艺中心_连栋2_排风机叶片,ventilation,hort,82.72,1.75,-22.92,QH-HORT-GH-02,QH-HORT-01003.speed / QH-HORT-01003.status
+QH-HORT-01004,园艺中心_连栋2_排风机叶片,ventilation,hort,82.72,1.35,-22.92,QH-HORT-GH-02,QH-HORT-01004.speed / QH-HORT-01004.status
+QH-HORT-01005,园艺中心_连栋2_排风机叶片,ventilation,hort,83.11,1.23,-22.92,QH-HORT-GH-02,QH-HORT-01005.speed / QH-HORT-01005.status
+QH-HORT-01006,园艺中心_连栋2_排风机防护网,ventilation,hort,82.58,1.55,-22.86,QH-HORT-GH-02,QH-HORT-01006.speed / QH-HORT-01006.status
+QH-HORT-01007,园艺中心_连栋2_排风机防护网,ventilation,hort,82.86,1.55,-22.86,QH-HORT-GH-02,QH-HORT-01007.speed / QH-HORT-01007.status
+QH-HORT-01008,园艺中心_连栋2_排风机防护网,ventilation,hort,83.14,1.55,-22.86,QH-HORT-GH-02,QH-HORT-01008.speed / QH-HORT-01008.status
+QH-HORT-01009,园艺中心_连栋2_排风机防护网,ventilation,hort,83.42,1.55,-22.86,QH-HORT-GH-02,QH-HORT-01009.speed / QH-HORT-01009.status
+QH-HORT-01010,园艺中心_连栋2_端墙排风机外框,ventilation,hort,83.0,1.55,-71.08,QH-HORT-GH-02,QH-HORT-01010.speed / QH-HORT-01010.status
+QH-HORT-01011,园艺中心_连栋2_排风机电机轴,ventilation,hort,83.0,1.55,-71.08,QH-HORT-GH-02,QH-HORT-01011.speed / QH-HORT-01011.status
+QH-HORT-01012,园艺中心_连栋2_排风机叶片,ventilation,hort,83.34,1.55,-71.08,QH-HORT-GH-02,QH-HORT-01012.speed / QH-HORT-01012.status
+QH-HORT-01013,园艺中心_连栋2_排风机叶片,ventilation,hort,83.11,1.87,-71.08,QH-HORT-GH-02,QH-HORT-01013.speed / QH-HORT-01013.status
+QH-HORT-01014,园艺中心_连栋2_排风机叶片,ventilation,hort,82.72,1.75,-71.08,QH-HORT-GH-02,QH-HORT-01014.speed / QH-HORT-01014.status
+QH-HORT-01015,园艺中心_连栋2_排风机叶片,ventilation,hort,82.72,1.35,-71.08,QH-HORT-GH-02,QH-HORT-01015.speed / QH-HORT-01015.status
+QH-HORT-01016,园艺中心_连栋2_排风机叶片,ventilation,hort,83.11,1.23,-71.08,QH-HORT-GH-02,QH-HORT-01016.speed / QH-HORT-01016.status
+QH-HORT-01017,园艺中心_连栋2_排风机防护网,ventilation,hort,82.58,1.55,-71.02,QH-HORT-GH-02,QH-HORT-01017.speed / QH-HORT-01017.status
+QH-HORT-01018,园艺中心_连栋2_排风机防护网,ventilation,hort,82.86,1.55,-71.02,QH-HORT-GH-02,QH-HORT-01018.speed / QH-HORT-01018.status
+QH-HORT-01019,园艺中心_连栋2_排风机防护网,ventilation,hort,83.14,1.55,-71.02,QH-HORT-GH-02,QH-HORT-01019.speed / QH-HORT-01019.status
+QH-HORT-01020,园艺中心_连栋2_排风机防护网,ventilation,hort,83.42,1.55,-71.02,QH-HORT-GH-02,QH-HORT-01020.speed / QH-HORT-01020.status
+QH-HORT-01021,园艺中心_连栋2_循环风扇吊杆,ventilation,hort,83.0,3.98,-31.0,QH-HORT-GH-02,QH-HORT-01021.speed / QH-HORT-01021.status
+QH-HORT-01022,园艺中心_连栋2_循环风扇电机,ventilation,hort,83.0,4.22,-31.0,QH-HORT-GH-02,QH-HORT-01022.speed / QH-HORT-01022.status
+QH-HORT-01023,园艺中心_连栋2_循环风扇叶片,ventilation,hort,83.37,4.22,-31.0,QH-HORT-GH-02,QH-HORT-01023.speed / QH-HORT-01023.status
+QH-HORT-01024,园艺中心_连栋2_循环风扇叶片,ventilation,hort,83.0,4.59,-31.0,QH-HORT-GH-02,QH-HORT-01024.speed / QH-HORT-01024.status
+QH-HORT-01025,园艺中心_连栋2_循环风扇叶片,ventilation,hort,82.63,4.22,-31.0,QH-HORT-GH-02,QH-HORT-01025.speed / QH-HORT-01025.status
+QH-HORT-01026,园艺中心_连栋2_循环风扇叶片,ventilation,hort,83.0,3.85,-31.0,QH-HORT-GH-02,QH-HORT-01026.speed / QH-HORT-01026.status
+QH-HORT-01027,园艺中心_连栋2_循环风扇吊杆,ventilation,hort,83.0,3.98,-47.0,QH-HORT-GH-02,QH-HORT-01027.speed / QH-HORT-01027.status
+QH-HORT-01028,园艺中心_连栋2_循环风扇电机,ventilation,hort,83.0,4.22,-47.0,QH-HORT-GH-02,QH-HORT-01028.speed / QH-HORT-01028.status
+QH-HORT-01029,园艺中心_连栋2_循环风扇叶片,ventilation,hort,83.37,4.22,-47.0,QH-HORT-GH-02,QH-HORT-01029.speed / QH-HORT-01029.status
+QH-HORT-01030,园艺中心_连栋2_循环风扇叶片,ventilation,hort,83.0,4.59,-47.0,QH-HORT-GH-02,QH-HORT-01030.speed / QH-HORT-01030.status
+QH-HORT-01031,园艺中心_连栋2_循环风扇叶片,ventilation,hort,82.63,4.22,-47.0,QH-HORT-GH-02,QH-HORT-01031.speed / QH-HORT-01031.status
+QH-HORT-01032,园艺中心_连栋2_循环风扇叶片,ventilation,hort,83.0,3.85,-47.0,QH-HORT-GH-02,QH-HORT-01032.speed / QH-HORT-01032.status
+QH-HORT-01033,园艺中心_连栋2_循环风扇吊杆,ventilation,hort,83.0,3.98,-63.0,QH-HORT-GH-02,QH-HORT-01033.speed / QH-HORT-01033.status
+QH-HORT-01034,园艺中心_连栋2_循环风扇电机,ventilation,hort,83.0,4.22,-63.0,QH-HORT-GH-02,QH-HORT-01034.speed / QH-HORT-01034.status
+QH-HORT-01035,园艺中心_连栋2_循环风扇叶片,ventilation,hort,83.37,4.22,-63.0,QH-HORT-GH-02,QH-HORT-01035.speed / QH-HORT-01035.status
+QH-HORT-01036,园艺中心_连栋2_循环风扇叶片,ventilation,hort,83.0,4.59,-63.0,QH-HORT-GH-02,QH-HORT-01036.speed / QH-HORT-01036.status
+QH-HORT-01037,园艺中心_连栋2_循环风扇叶片,ventilation,hort,82.63,4.22,-63.0,QH-HORT-GH-02,QH-HORT-01037.speed / QH-HORT-01037.status
+QH-HORT-01038,园艺中心_连栋2_循环风扇叶片,ventilation,hort,83.0,3.85,-63.0,QH-HORT-GH-02,QH-HORT-01038.speed / QH-HORT-01038.status
+QH-HORT-01039,园艺中心_连栋2_环境控制柜,facility,hort,86.17,1.05,-25.2,QH-HORT-GH-02,
+QH-HORT-01040,园艺中心_连栋2_控制柜操作面板,facility,hort,86.17,1.3,-24.95,QH-HORT-GH-02,
+QH-HORT-01042,园艺中心_连栋2_环境传感器立杆,sensor,hort,84.53999999999999,1.47,-35.0,QH-HORT-GH-02,QH-HORT-01042.value / QH-HORT-01042.status
+QH-HORT-01043,园艺中心_连栋2_温湿度传感器,sensor,hort,84.53999999999999,2.45,-35.0,QH-HORT-GH-02,QH-HORT-01043.value / QH-HORT-01043.status
+QH-HORT-01044,园艺中心_连栋2_传感器状态灯,sensor,hort,84.53999999999999,2.72,-35.0,QH-HORT-GH-02,QH-HORT-01044.value / QH-HORT-01044.status
+QH-HORT-01045,园艺中心_连栋2_土壤湿度探头,sensor,hort,83.22,0.42,-35.0,QH-HORT-GH-02,QH-HORT-01045.value / QH-HORT-01045.status
+QH-HORT-01046,园艺中心_连栋2_土壤湿度传感器,sensor,hort,83.22,0.76,-35.0,QH-HORT-GH-02,QH-HORT-01046.value / QH-HORT-01046.status
+QH-HORT-01047,园艺中心_连栋2_环境传感器立杆,sensor,hort,84.53999999999999,1.47,-59.0,QH-HORT-GH-02,QH-HORT-01047.value / QH-HORT-01047.status
+QH-HORT-01048,园艺中心_连栋2_温湿度传感器,sensor,hort,84.53999999999999,2.45,-59.0,QH-HORT-GH-02,QH-HORT-01048.value / QH-HORT-01048.status
+QH-HORT-01049,园艺中心_连栋2_传感器状态灯,sensor,hort,84.53999999999999,2.72,-59.0,QH-HORT-GH-02,QH-HORT-01049.value / QH-HORT-01049.status
+QH-HORT-01050,园艺中心_连栋2_土壤湿度探头,sensor,hort,83.22,0.42,-59.0,QH-HORT-GH-02,QH-HORT-01050.value / QH-HORT-01050.status
+QH-HORT-01051,园艺中心_连栋2_土壤湿度传感器,sensor,hort,83.22,0.76,-59.0,QH-HORT-GH-02,QH-HORT-01051.value / QH-HORT-01051.status
+QH-HORT-01052,园艺中心_连栋2_区域标识牌,facility,hort,83.0,2.9,-21.8,QH-HORT-GH-02,
+QH-HORT-01053,园艺中心_连栋3_侧墙透光板,facility,hort,87.6,1.07,-47.0,QH-HORT-GH-03,
+QH-HORT-01054,园艺中心_连栋3_侧墙透光板,facility,hort,96.4,1.07,-47.0,QH-HORT-GH-03,
+QH-HORT-01055,园艺中心_连栋3_拱形棚膜,facility,hort,92.0,3.6,-47.0,QH-HORT-GH-03,
+QH-HORT-01056,园艺中心_连栋3_端墙透光板,facility,hort,92.0,2.52,-23.0,QH-HORT-GH-03,
+QH-HORT-01057,园艺中心_连栋3_端墙透光板,facility,hort,92.0,2.52,-71.0,QH-HORT-GH-03,
+QH-HORT-01058,园艺中心_连栋3_钢结构拱架,greenhouse_component,hort,92.0,3.63,-23.0,QH-HORT-GH-03,
+QH-HORT-01061,园艺中心_连栋3_钢结构拱架,greenhouse_component,hort,92.0,3.63,-27.0,QH-HORT-GH-03,
+QH-HORT-01064,园艺中心_连栋3_钢结构拱架,greenhouse_component,hort,92.0,3.63,-31.0,QH-HORT-GH-03,
+QH-HORT-01067,园艺中心_连栋3_钢结构拱架,greenhouse_component,hort,92.0,3.63,-35.0,QH-HORT-GH-03,
+QH-HORT-01070,园艺中心_连栋3_钢结构拱架,greenhouse_component,hort,92.0,3.63,-39.0,QH-HORT-GH-03,
+QH-HORT-01073,园艺中心_连栋3_钢结构拱架,greenhouse_component,hort,92.0,3.63,-43.0,QH-HORT-GH-03,
+QH-HORT-01076,园艺中心_连栋3_钢结构拱架,greenhouse_component,hort,92.0,3.63,-47.0,QH-HORT-GH-03,
+QH-HORT-01079,园艺中心_连栋3_钢结构拱架,greenhouse_component,hort,92.0,3.63,-51.0,QH-HORT-GH-03,
+QH-HORT-01082,园艺中心_连栋3_钢结构拱架,greenhouse_component,hort,92.0,3.63,-55.0,QH-HORT-GH-03,
+QH-HORT-01085,园艺中心_连栋3_钢结构拱架,greenhouse_component,hort,92.0,3.63,-59.0,QH-HORT-GH-03,
+QH-HORT-01088,园艺中心_连栋3_钢结构拱架,greenhouse_component,hort,92.0,3.63,-63.0,QH-HORT-GH-03,
+QH-HORT-01091,园艺中心_连栋3_钢结构拱架,greenhouse_component,hort,92.0,3.63,-67.0,QH-HORT-GH-03,
+QH-HORT-01094,园艺中心_连栋3_钢结构拱架,greenhouse_component,hort,92.0,3.63,-71.0,QH-HORT-GH-03,
+QH-HORT-01097,园艺中心_连栋3_纵向檩条,facility,hort,87.6,2.15,-47.0,QH-HORT-GH-03,
+QH-HORT-01098,园艺中心_连栋3_纵向檩条,facility,hort,89.14,4.35,-47.0,QH-HORT-GH-03,
+QH-HORT-01099,园艺中心_连栋3_纵向檩条,facility,hort,92.0,5.05,-47.0,QH-HORT-GH-03,
+QH-HORT-01100,园艺中心_连栋3_纵向檩条,facility,hort,94.86,4.35,-47.0,QH-HORT-GH-03,
+QH-HORT-01101,园艺中心_连栋3_纵向檩条,facility,hort,96.4,2.15,-47.0,QH-HORT-GH-03,
+QH-HORT-01110,园艺中心_连栋3_滴灌管线,irrigation,hort,89.1,0.3,-47.0,QH-HORT-GH-03,QH-HORT-01110.flow / QH-HORT-01110.status
+QH-HORT-01112,园艺中心_连栋3_滴灌管线,irrigation,hort,91.03,0.3,-47.0,QH-HORT-GH-03,QH-HORT-01112.flow / QH-HORT-01112.status
+QH-HORT-01114,园艺中心_连栋3_滴灌管线,irrigation,hort,92.97,0.3,-47.0,QH-HORT-GH-03,QH-HORT-01114.flow / QH-HORT-01114.status
+QH-HORT-01116,园艺中心_连栋3_滴灌管线,irrigation,hort,94.9,0.3,-47.0,QH-HORT-GH-03,QH-HORT-01116.flow / QH-HORT-01116.status
+QH-HORT-01117,园艺中心_连栋3_内部作物行,facility,hort,92.03,0.44,-47.0,QH-HORT-GH-03,
+QH-HORT-01195,园艺中心_连栋3_喷灌支管,irrigation,hort,92.0,3.61,-27.0,QH-HORT-GH-03,QH-HORT-01195.flow / QH-HORT-01195.status
+QH-HORT-01200,园艺中心_连栋3_喷灌支管,irrigation,hort,92.0,3.61,-40.33,QH-HORT-GH-03,QH-HORT-01200.flow / QH-HORT-01200.status
+QH-HORT-01205,园艺中心_连栋3_喷灌支管,irrigation,hort,92.0,3.61,-53.67,QH-HORT-GH-03,QH-HORT-01205.flow / QH-HORT-01205.status
+QH-HORT-01210,园艺中心_连栋3_喷灌支管,irrigation,hort,92.0,3.61,-67.0,QH-HORT-GH-03,QH-HORT-01210.flow / QH-HORT-01210.status
+QH-HORT-01215,园艺中心_连栋3_端墙排风机外框,ventilation,hort,92.0,1.55,-22.92,QH-HORT-GH-03,QH-HORT-01215.speed / QH-HORT-01215.status
+QH-HORT-01216,园艺中心_连栋3_排风机电机轴,ventilation,hort,92.0,1.55,-22.92,QH-HORT-GH-03,QH-HORT-01216.speed / QH-HORT-01216.status
+QH-HORT-01217,园艺中心_连栋3_排风机叶片,ventilation,hort,92.34,1.55,-22.92,QH-HORT-GH-03,QH-HORT-01217.speed / QH-HORT-01217.status
+QH-HORT-01218,园艺中心_连栋3_排风机叶片,ventilation,hort,92.11,1.87,-22.92,QH-HORT-GH-03,QH-HORT-01218.speed / QH-HORT-01218.status
+QH-HORT-01219,园艺中心_连栋3_排风机叶片,ventilation,hort,91.72,1.75,-22.92,QH-HORT-GH-03,QH-HORT-01219.speed / QH-HORT-01219.status
+QH-HORT-01220,园艺中心_连栋3_排风机叶片,ventilation,hort,91.72,1.35,-22.92,QH-HORT-GH-03,QH-HORT-01220.speed / QH-HORT-01220.status
+QH-HORT-01221,园艺中心_连栋3_排风机叶片,ventilation,hort,92.11,1.23,-22.92,QH-HORT-GH-03,QH-HORT-01221.speed / QH-HORT-01221.status
+QH-HORT-01222,园艺中心_连栋3_排风机防护网,ventilation,hort,91.58,1.55,-22.86,QH-HORT-GH-03,QH-HORT-01222.speed / QH-HORT-01222.status
+QH-HORT-01223,园艺中心_连栋3_排风机防护网,ventilation,hort,91.86,1.55,-22.86,QH-HORT-GH-03,QH-HORT-01223.speed / QH-HORT-01223.status
+QH-HORT-01224,园艺中心_连栋3_排风机防护网,ventilation,hort,92.14,1.55,-22.86,QH-HORT-GH-03,QH-HORT-01224.speed / QH-HORT-01224.status
+QH-HORT-01225,园艺中心_连栋3_排风机防护网,ventilation,hort,92.42,1.55,-22.86,QH-HORT-GH-03,QH-HORT-01225.speed / QH-HORT-01225.status
+QH-HORT-01226,园艺中心_连栋3_端墙排风机外框,ventilation,hort,92.0,1.55,-71.08,QH-HORT-GH-03,QH-HORT-01226.speed / QH-HORT-01226.status
+QH-HORT-01227,园艺中心_连栋3_排风机电机轴,ventilation,hort,92.0,1.55,-71.08,QH-HORT-GH-03,QH-HORT-01227.speed / QH-HORT-01227.status
+QH-HORT-01228,园艺中心_连栋3_排风机叶片,ventilation,hort,92.34,1.55,-71.08,QH-HORT-GH-03,QH-HORT-01228.speed / QH-HORT-01228.status
+QH-HORT-01229,园艺中心_连栋3_排风机叶片,ventilation,hort,92.11,1.87,-71.08,QH-HORT-GH-03,QH-HORT-01229.speed / QH-HORT-01229.status
+QH-HORT-01230,园艺中心_连栋3_排风机叶片,ventilation,hort,91.72,1.75,-71.08,QH-HORT-GH-03,QH-HORT-01230.speed / QH-HORT-01230.status
+QH-HORT-01231,园艺中心_连栋3_排风机叶片,ventilation,hort,91.72,1.35,-71.08,QH-HORT-GH-03,QH-HORT-01231.speed / QH-HORT-01231.status
+QH-HORT-01232,园艺中心_连栋3_排风机叶片,ventilation,hort,92.11,1.23,-71.08,QH-HORT-GH-03,QH-HORT-01232.speed / QH-HORT-01232.status
+QH-HORT-01233,园艺中心_连栋3_排风机防护网,ventilation,hort,91.58,1.55,-71.02,QH-HORT-GH-03,QH-HORT-01233.speed / QH-HORT-01233.status
+QH-HORT-01234,园艺中心_连栋3_排风机防护网,ventilation,hort,91.86,1.55,-71.02,QH-HORT-GH-03,QH-HORT-01234.speed / QH-HORT-01234.status
+QH-HORT-01235,园艺中心_连栋3_排风机防护网,ventilation,hort,92.14,1.55,-71.02,QH-HORT-GH-03,QH-HORT-01235.speed / QH-HORT-01235.status
+QH-HORT-01236,园艺中心_连栋3_排风机防护网,ventilation,hort,92.42,1.55,-71.02,QH-HORT-GH-03,QH-HORT-01236.speed / QH-HORT-01236.status
+QH-HORT-01237,园艺中心_连栋3_循环风扇吊杆,ventilation,hort,92.0,3.98,-31.0,QH-HORT-GH-03,QH-HORT-01237.speed / QH-HORT-01237.status
+QH-HORT-01238,园艺中心_连栋3_循环风扇电机,ventilation,hort,92.0,4.22,-31.0,QH-HORT-GH-03,QH-HORT-01238.speed / QH-HORT-01238.status
+QH-HORT-01239,园艺中心_连栋3_循环风扇叶片,ventilation,hort,92.37,4.22,-31.0,QH-HORT-GH-03,QH-HORT-01239.speed / QH-HORT-01239.status
+QH-HORT-01240,园艺中心_连栋3_循环风扇叶片,ventilation,hort,92.0,4.59,-31.0,QH-HORT-GH-03,QH-HORT-01240.speed / QH-HORT-01240.status
+QH-HORT-01241,园艺中心_连栋3_循环风扇叶片,ventilation,hort,91.63,4.22,-31.0,QH-HORT-GH-03,QH-HORT-01241.speed / QH-HORT-01241.status
+QH-HORT-01242,园艺中心_连栋3_循环风扇叶片,ventilation,hort,92.0,3.85,-31.0,QH-HORT-GH-03,QH-HORT-01242.speed / QH-HORT-01242.status
+QH-HORT-01243,园艺中心_连栋3_循环风扇吊杆,ventilation,hort,92.0,3.98,-47.0,QH-HORT-GH-03,QH-HORT-01243.speed / QH-HORT-01243.status
+QH-HORT-01244,园艺中心_连栋3_循环风扇电机,ventilation,hort,92.0,4.22,-47.0,QH-HORT-GH-03,QH-HORT-01244.speed / QH-HORT-01244.status
+QH-HORT-01245,园艺中心_连栋3_循环风扇叶片,ventilation,hort,92.37,4.22,-47.0,QH-HORT-GH-03,QH-HORT-01245.speed / QH-HORT-01245.status
+QH-HORT-01246,园艺中心_连栋3_循环风扇叶片,ventilation,hort,92.0,4.59,-47.0,QH-HORT-GH-03,QH-HORT-01246.speed / QH-HORT-01246.status
+QH-HORT-01247,园艺中心_连栋3_循环风扇叶片,ventilation,hort,91.63,4.22,-47.0,QH-HORT-GH-03,QH-HORT-01247.speed / QH-HORT-01247.status
+QH-HORT-01248,园艺中心_连栋3_循环风扇叶片,ventilation,hort,92.0,3.85,-47.0,QH-HORT-GH-03,QH-HORT-01248.speed / QH-HORT-01248.status
+QH-HORT-01249,园艺中心_连栋3_循环风扇吊杆,ventilation,hort,92.0,3.98,-63.0,QH-HORT-GH-03,QH-HORT-01249.speed / QH-HORT-01249.status
+QH-HORT-01250,园艺中心_连栋3_循环风扇电机,ventilation,hort,92.0,4.22,-63.0,QH-HORT-GH-03,QH-HORT-01250.speed / QH-HORT-01250.status
+QH-HORT-01251,园艺中心_连栋3_循环风扇叶片,ventilation,hort,92.37,4.22,-63.0,QH-HORT-GH-03,QH-HORT-01251.speed / QH-HORT-01251.status
+QH-HORT-01252,园艺中心_连栋3_循环风扇叶片,ventilation,hort,92.0,4.59,-63.0,QH-HORT-GH-03,QH-HORT-01252.speed / QH-HORT-01252.status
+QH-HORT-01253,园艺中心_连栋3_循环风扇叶片,ventilation,hort,91.63,4.22,-63.0,QH-HORT-GH-03,QH-HORT-01253.speed / QH-HORT-01253.status
+QH-HORT-01254,园艺中心_连栋3_循环风扇叶片,ventilation,hort,92.0,3.85,-63.0,QH-HORT-GH-03,QH-HORT-01254.speed / QH-HORT-01254.status
+QH-HORT-01255,园艺中心_连栋3_环境控制柜,facility,hort,95.17,1.05,-25.2,QH-HORT-GH-03,
+QH-HORT-01256,园艺中心_连栋3_控制柜操作面板,facility,hort,95.17,1.3,-24.95,QH-HORT-GH-03,
+QH-HORT-01258,园艺中心_连栋3_环境传感器立杆,sensor,hort,93.54,1.47,-35.0,QH-HORT-GH-03,QH-HORT-01258.value / QH-HORT-01258.status
+QH-HORT-01259,园艺中心_连栋3_温湿度传感器,sensor,hort,93.54,2.45,-35.0,QH-HORT-GH-03,QH-HORT-01259.value / QH-HORT-01259.status
+QH-HORT-01260,园艺中心_连栋3_传感器状态灯,sensor,hort,93.54,2.72,-35.0,QH-HORT-GH-03,QH-HORT-01260.value / QH-HORT-01260.status
+QH-HORT-01261,园艺中心_连栋3_土壤湿度探头,sensor,hort,92.22,0.42,-35.0,QH-HORT-GH-03,QH-HORT-01261.value / QH-HORT-01261.status
+QH-HORT-01262,园艺中心_连栋3_土壤湿度传感器,sensor,hort,92.22,0.76,-35.0,QH-HORT-GH-03,QH-HORT-01262.value / QH-HORT-01262.status
+QH-HORT-01263,园艺中心_连栋3_环境传感器立杆,sensor,hort,93.54,1.47,-59.0,QH-HORT-GH-03,QH-HORT-01263.value / QH-HORT-01263.status
+QH-HORT-01264,园艺中心_连栋3_温湿度传感器,sensor,hort,93.54,2.45,-59.0,QH-HORT-GH-03,QH-HORT-01264.value / QH-HORT-01264.status
+QH-HORT-01265,园艺中心_连栋3_传感器状态灯,sensor,hort,93.54,2.72,-59.0,QH-HORT-GH-03,QH-HORT-01265.value / QH-HORT-01265.status
+QH-HORT-01266,园艺中心_连栋3_土壤湿度探头,sensor,hort,92.22,0.42,-59.0,QH-HORT-GH-03,QH-HORT-01266.value / QH-HORT-01266.status
+QH-HORT-01267,园艺中心_连栋3_土壤湿度传感器,sensor,hort,92.22,0.76,-59.0,QH-HORT-GH-03,QH-HORT-01267.value / QH-HORT-01267.status
+QH-HORT-01271,蓄水罐,irrigation,hort,101.0,1.35,-34.0,,QH-HORT-01271.flow / QH-HORT-01271.status
+QH-HORT-01272,水罐顶盖,irrigation,hort,101.0,2.52,-34.0,,QH-HORT-01272.flow / QH-HORT-01272.status
+QH-PEONY-01273,芍药基地_大棚1_侧墙透光板,greenhouse_component,peony,25.0,1.0,-40.1,QH-PEONY-GH-01,
+QH-PEONY-01274,芍药基地_大棚1_侧墙透光板,greenhouse_component,peony,25.0,1.0,-31.9,QH-PEONY-GH-01,
+QH-PEONY-01275,芍药基地_大棚1_拱形棚膜,greenhouse_component,peony,25.0,3.38,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01276,芍药基地_大棚1_端墙透光板,greenhouse_component,peony,1.0,2.38,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01277,芍药基地_大棚1_端墙透光板,greenhouse_component,peony,49.0,2.38,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01278,芍药基地_大棚1_钢结构拱架,greenhouse_component,peony,1.0,3.4,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01281,芍药基地_大棚1_钢结构拱架,greenhouse_component,peony,5.0,3.4,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01284,芍药基地_大棚1_钢结构拱架,greenhouse_component,peony,9.0,3.4,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01287,芍药基地_大棚1_钢结构拱架,greenhouse_component,peony,13.0,3.4,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01290,芍药基地_大棚1_钢结构拱架,greenhouse_component,peony,17.0,3.4,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01293,芍药基地_大棚1_钢结构拱架,greenhouse_component,peony,21.0,3.4,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01296,芍药基地_大棚1_钢结构拱架,greenhouse_component,peony,25.0,3.4,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01299,芍药基地_大棚1_钢结构拱架,greenhouse_component,peony,29.0,3.4,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01302,芍药基地_大棚1_钢结构拱架,greenhouse_component,peony,33.0,3.4,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01305,芍药基地_大棚1_钢结构拱架,greenhouse_component,peony,37.0,3.4,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01308,芍药基地_大棚1_钢结构拱架,greenhouse_component,peony,41.0,3.4,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01311,芍药基地_大棚1_钢结构拱架,greenhouse_component,peony,45.0,3.4,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01314,芍药基地_大棚1_钢结构拱架,greenhouse_component,peony,49.0,3.4,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01317,芍药基地_大棚1_纵向檩条,greenhouse_component,peony,25.0,2.0,-40.1,QH-PEONY-GH-01,
+QH-PEONY-01318,芍药基地_大棚1_纵向檩条,greenhouse_component,peony,25.0,4.09,-38.66,QH-PEONY-GH-01,
+QH-PEONY-01319,芍药基地_大棚1_纵向檩条,greenhouse_component,peony,25.0,4.75,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01320,芍药基地_大棚1_纵向檩条,greenhouse_component,peony,25.0,4.09,-33.34,QH-PEONY-GH-01,
+QH-PEONY-01321,芍药基地_大棚1_纵向檩条,greenhouse_component,peony,25.0,2.0,-31.9,QH-PEONY-GH-01,
+QH-PEONY-01330,芍药基地_大棚1_滴灌管线,irrigation,peony,25.0,0.3,-38.71,QH-PEONY-GH-01,QH-PEONY-01330.flow / QH-PEONY-01330.status
+QH-PEONY-01332,芍药基地_大棚1_滴灌管线,irrigation,peony,25.0,0.3,-36.9,QH-PEONY-GH-01,QH-PEONY-01332.flow / QH-PEONY-01332.status
+QH-PEONY-01334,芍药基地_大棚1_滴灌管线,irrigation,peony,25.0,0.3,-35.1,QH-PEONY-GH-01,QH-PEONY-01334.flow / QH-PEONY-01334.status
+QH-PEONY-01336,芍药基地_大棚1_滴灌管线,irrigation,peony,25.0,0.3,-33.29,QH-PEONY-GH-01,QH-PEONY-01336.flow / QH-PEONY-01336.status
+QH-PEONY-01337,芍药基地_大棚1_内部作物行,greenhouse_component,peony,25.0,0.71,-36.0,QH-PEONY-GH-01,
+QH-PEONY-01415,芍药基地_大棚1_喷灌支管,irrigation,peony,5.0,3.38,-36.0,QH-PEONY-GH-01,QH-PEONY-01415.flow / QH-PEONY-01415.status
+QH-PEONY-01420,芍药基地_大棚1_喷灌支管,irrigation,peony,18.33,3.38,-36.0,QH-PEONY-GH-01,QH-PEONY-01420.flow / QH-PEONY-01420.status
+QH-PEONY-01425,芍药基地_大棚1_喷灌支管,irrigation,peony,31.67,3.38,-36.0,QH-PEONY-GH-01,QH-PEONY-01425.flow / QH-PEONY-01425.status
+QH-PEONY-01430,芍药基地_大棚1_喷灌支管,irrigation,peony,45.0,3.38,-36.0,QH-PEONY-GH-01,QH-PEONY-01430.flow / QH-PEONY-01430.status
+QH-PEONY-01435,芍药基地_大棚1_端墙排风机外框,ventilation,peony,0.9200000000000016,1.55,-36.0,QH-PEONY-GH-01,QH-PEONY-01435.speed / QH-PEONY-01435.status
+QH-PEONY-01436,芍药基地_大棚1_排风机电机轴,ventilation,peony,0.9200000000000016,1.55,-36.0,QH-PEONY-GH-01,QH-PEONY-01436.speed / QH-PEONY-01436.status
+QH-PEONY-01437,芍药基地_大棚1_排风机叶片,ventilation,peony,0.9200000000000016,1.55,-35.66,QH-PEONY-GH-01,QH-PEONY-01437.speed / QH-PEONY-01437.status
+QH-PEONY-01438,芍药基地_大棚1_排风机叶片,ventilation,peony,0.9200000000000016,1.87,-35.89,QH-PEONY-GH-01,QH-PEONY-01438.speed / QH-PEONY-01438.status
+QH-PEONY-01439,芍药基地_大棚1_排风机叶片,ventilation,peony,0.9200000000000016,1.75,-36.28,QH-PEONY-GH-01,QH-PEONY-01439.speed / QH-PEONY-01439.status
+QH-PEONY-01440,芍药基地_大棚1_排风机叶片,ventilation,peony,0.9200000000000016,1.35,-36.28,QH-PEONY-GH-01,QH-PEONY-01440.speed / QH-PEONY-01440.status
+QH-PEONY-01441,芍药基地_大棚1_排风机叶片,ventilation,peony,0.9200000000000016,1.23,-35.89,QH-PEONY-GH-01,QH-PEONY-01441.speed / QH-PEONY-01441.status
+QH-PEONY-01442,芍药基地_大棚1_排风机防护网,ventilation,peony,0.8599999999999994,1.55,-36.42,QH-PEONY-GH-01,QH-PEONY-01442.speed / QH-PEONY-01442.status
+QH-PEONY-01443,芍药基地_大棚1_排风机防护网,ventilation,peony,0.8599999999999994,1.55,-36.14,QH-PEONY-GH-01,QH-PEONY-01443.speed / QH-PEONY-01443.status
+QH-PEONY-01444,芍药基地_大棚1_排风机防护网,ventilation,peony,0.8599999999999994,1.55,-35.86,QH-PEONY-GH-01,QH-PEONY-01444.speed / QH-PEONY-01444.status
+QH-PEONY-01445,芍药基地_大棚1_排风机防护网,ventilation,peony,0.8599999999999994,1.55,-35.58,QH-PEONY-GH-01,QH-PEONY-01445.speed / QH-PEONY-01445.status
+QH-PEONY-01446,芍药基地_大棚1_端墙排风机外框,ventilation,peony,49.08,1.55,-36.0,QH-PEONY-GH-01,QH-PEONY-01446.speed / QH-PEONY-01446.status
+QH-PEONY-01447,芍药基地_大棚1_排风机电机轴,ventilation,peony,49.08,1.55,-36.0,QH-PEONY-GH-01,QH-PEONY-01447.speed / QH-PEONY-01447.status
+QH-PEONY-01448,芍药基地_大棚1_排风机叶片,ventilation,peony,49.08,1.55,-35.66,QH-PEONY-GH-01,QH-PEONY-01448.speed / QH-PEONY-01448.status
+QH-PEONY-01449,芍药基地_大棚1_排风机叶片,ventilation,peony,49.08,1.87,-35.89,QH-PEONY-GH-01,QH-PEONY-01449.speed / QH-PEONY-01449.status
+QH-PEONY-01450,芍药基地_大棚1_排风机叶片,ventilation,peony,49.08,1.75,-36.28,QH-PEONY-GH-01,QH-PEONY-01450.speed / QH-PEONY-01450.status
+QH-PEONY-01451,芍药基地_大棚1_排风机叶片,ventilation,peony,49.08,1.35,-36.28,QH-PEONY-GH-01,QH-PEONY-01451.speed / QH-PEONY-01451.status
+QH-PEONY-01452,芍药基地_大棚1_排风机叶片,ventilation,peony,49.08,1.23,-35.89,QH-PEONY-GH-01,QH-PEONY-01452.speed / QH-PEONY-01452.status
+QH-PEONY-01453,芍药基地_大棚1_排风机防护网,ventilation,peony,49.02,1.55,-36.42,QH-PEONY-GH-01,QH-PEONY-01453.speed / QH-PEONY-01453.status
+QH-PEONY-01454,芍药基地_大棚1_排风机防护网,ventilation,peony,49.02,1.55,-36.14,QH-PEONY-GH-01,QH-PEONY-01454.speed / QH-PEONY-01454.status
+QH-PEONY-01455,芍药基地_大棚1_排风机防护网,ventilation,peony,49.02,1.55,-35.86,QH-PEONY-GH-01,QH-PEONY-01455.speed / QH-PEONY-01455.status
+QH-PEONY-01456,芍药基地_大棚1_排风机防护网,ventilation,peony,49.02,1.55,-35.58,QH-PEONY-GH-01,QH-PEONY-01456.speed / QH-PEONY-01456.status
+QH-PEONY-01457,芍药基地_大棚1_循环风扇吊杆,ventilation,peony,9.0,3.75,-36.0,QH-PEONY-GH-01,QH-PEONY-01457.speed / QH-PEONY-01457.status
+QH-PEONY-01458,芍药基地_大棚1_循环风扇电机,ventilation,peony,9.0,3.99,-36.0,QH-PEONY-GH-01,QH-PEONY-01458.speed / QH-PEONY-01458.status
+QH-PEONY-01459,芍药基地_大棚1_循环风扇叶片,ventilation,peony,9.0,3.99,-35.629999999999995,QH-PEONY-GH-01,QH-PEONY-01459.speed / QH-PEONY-01459.status
+QH-PEONY-01460,芍药基地_大棚1_循环风扇叶片,ventilation,peony,9.0,4.36,-36.0,QH-PEONY-GH-01,QH-PEONY-01460.speed / QH-PEONY-01460.status
+QH-PEONY-01461,芍药基地_大棚1_循环风扇叶片,ventilation,peony,9.0,3.99,-36.370000000000005,QH-PEONY-GH-01,QH-PEONY-01461.speed / QH-PEONY-01461.status
+QH-PEONY-01462,芍药基地_大棚1_循环风扇叶片,ventilation,peony,9.0,3.62,-36.0,QH-PEONY-GH-01,QH-PEONY-01462.speed / QH-PEONY-01462.status
+QH-PEONY-01463,芍药基地_大棚1_循环风扇吊杆,ventilation,peony,25.0,3.75,-36.0,QH-PEONY-GH-01,QH-PEONY-01463.speed / QH-PEONY-01463.status
+QH-PEONY-01464,芍药基地_大棚1_循环风扇电机,ventilation,peony,25.0,3.99,-36.0,QH-PEONY-GH-01,QH-PEONY-01464.speed / QH-PEONY-01464.status
+QH-PEONY-01465,芍药基地_大棚1_循环风扇叶片,ventilation,peony,25.0,3.99,-35.629999999999995,QH-PEONY-GH-01,QH-PEONY-01465.speed / QH-PEONY-01465.status
+QH-PEONY-01466,芍药基地_大棚1_循环风扇叶片,ventilation,peony,25.0,4.36,-36.0,QH-PEONY-GH-01,QH-PEONY-01466.speed / QH-PEONY-01466.status
+QH-PEONY-01467,芍药基地_大棚1_循环风扇叶片,ventilation,peony,25.0,3.99,-36.370000000000005,QH-PEONY-GH-01,QH-PEONY-01467.speed / QH-PEONY-01467.status
+QH-PEONY-01468,芍药基地_大棚1_循环风扇叶片,ventilation,peony,25.0,3.62,-36.0,QH-PEONY-GH-01,QH-PEONY-01468.speed / QH-PEONY-01468.status
+QH-PEONY-01469,芍药基地_大棚1_循环风扇吊杆,ventilation,peony,41.0,3.75,-36.0,QH-PEONY-GH-01,QH-PEONY-01469.speed / QH-PEONY-01469.status
+QH-PEONY-01470,芍药基地_大棚1_循环风扇电机,ventilation,peony,41.0,3.99,-36.0,QH-PEONY-GH-01,QH-PEONY-01470.speed / QH-PEONY-01470.status
+QH-PEONY-01471,芍药基地_大棚1_循环风扇叶片,ventilation,peony,41.0,3.99,-35.629999999999995,QH-PEONY-GH-01,QH-PEONY-01471.speed / QH-PEONY-01471.status
+QH-PEONY-01472,芍药基地_大棚1_循环风扇叶片,ventilation,peony,41.0,4.36,-36.0,QH-PEONY-GH-01,QH-PEONY-01472.speed / QH-PEONY-01472.status
+QH-PEONY-01473,芍药基地_大棚1_循环风扇叶片,ventilation,peony,41.0,3.99,-36.370000000000005,QH-PEONY-GH-01,QH-PEONY-01473.speed / QH-PEONY-01473.status
+QH-PEONY-01474,芍药基地_大棚1_循环风扇叶片,ventilation,peony,41.0,3.62,-36.0,QH-PEONY-GH-01,QH-PEONY-01474.speed / QH-PEONY-01474.status
+QH-PEONY-01475,芍药基地_大棚1_环境控制柜,greenhouse_component,peony,3.200000000000003,1.05,-33.05,QH-PEONY-GH-01,
+QH-PEONY-01476,芍药基地_大棚1_控制柜操作面板,greenhouse_component,peony,2.950000000000003,1.3,-33.05,QH-PEONY-GH-01,
+QH-PEONY-01478,芍药基地_大棚1_环境传感器立杆,sensor,peony,13.0,1.47,-34.57,QH-PEONY-GH-01,QH-PEONY-01478.value / QH-PEONY-01478.status
+QH-PEONY-01479,芍药基地_大棚1_温湿度传感器,sensor,peony,13.0,2.45,-34.56,QH-PEONY-GH-01,QH-PEONY-01479.value / QH-PEONY-01479.status
+QH-PEONY-01480,芍药基地_大棚1_传感器状态灯,sensor,peony,13.0,2.72,-34.57,QH-PEONY-GH-01,QH-PEONY-01480.value / QH-PEONY-01480.status
+QH-PEONY-01481,芍药基地_大棚1_土壤湿度探头,sensor,peony,13.0,0.42,-35.79,QH-PEONY-GH-01,QH-PEONY-01481.value / QH-PEONY-01481.status
+QH-PEONY-01482,芍药基地_大棚1_土壤湿度传感器,sensor,peony,13.0,0.76,-35.8,QH-PEONY-GH-01,QH-PEONY-01482.value / QH-PEONY-01482.status
+QH-PEONY-01483,芍药基地_大棚1_环境传感器立杆,sensor,peony,37.0,1.47,-34.57,QH-PEONY-GH-01,QH-PEONY-01483.value / QH-PEONY-01483.status
+QH-PEONY-01484,芍药基地_大棚1_温湿度传感器,sensor,peony,37.0,2.45,-34.56,QH-PEONY-GH-01,QH-PEONY-01484.value / QH-PEONY-01484.status
+QH-PEONY-01485,芍药基地_大棚1_传感器状态灯,sensor,peony,37.0,2.72,-34.57,QH-PEONY-GH-01,QH-PEONY-01485.value / QH-PEONY-01485.status
+QH-PEONY-01486,芍药基地_大棚1_土壤湿度探头,sensor,peony,37.0,0.42,-35.79,QH-PEONY-GH-01,QH-PEONY-01486.value / QH-PEONY-01486.status
+QH-PEONY-01487,芍药基地_大棚1_土壤湿度传感器,sensor,peony,37.0,0.76,-35.8,QH-PEONY-GH-01,QH-PEONY-01487.value / QH-PEONY-01487.status
+QH-PEONY-01496,芍药基地_大棚2_侧墙透光板,greenhouse_component,peony,25.0,1.0,-53.1,QH-PEONY-GH-02,
+QH-PEONY-01497,芍药基地_大棚2_侧墙透光板,greenhouse_component,peony,25.0,1.0,-44.9,QH-PEONY-GH-02,
+QH-PEONY-01498,芍药基地_大棚2_拱形棚膜,greenhouse_component,peony,25.0,3.38,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01499,芍药基地_大棚2_端墙透光板,greenhouse_component,peony,1.0,2.38,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01500,芍药基地_大棚2_端墙透光板,greenhouse_component,peony,49.0,2.38,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01501,芍药基地_大棚2_钢结构拱架,greenhouse_component,peony,1.0,3.4,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01504,芍药基地_大棚2_钢结构拱架,greenhouse_component,peony,5.0,3.4,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01507,芍药基地_大棚2_钢结构拱架,greenhouse_component,peony,9.0,3.4,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01510,芍药基地_大棚2_钢结构拱架,greenhouse_component,peony,13.0,3.4,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01513,芍药基地_大棚2_钢结构拱架,greenhouse_component,peony,17.0,3.4,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01516,芍药基地_大棚2_钢结构拱架,greenhouse_component,peony,21.0,3.4,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01519,芍药基地_大棚2_钢结构拱架,greenhouse_component,peony,25.0,3.4,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01522,芍药基地_大棚2_钢结构拱架,greenhouse_component,peony,29.0,3.4,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01525,芍药基地_大棚2_钢结构拱架,greenhouse_component,peony,33.0,3.4,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01528,芍药基地_大棚2_钢结构拱架,greenhouse_component,peony,37.0,3.4,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01531,芍药基地_大棚2_钢结构拱架,greenhouse_component,peony,41.0,3.4,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01534,芍药基地_大棚2_钢结构拱架,greenhouse_component,peony,45.0,3.4,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01537,芍药基地_大棚2_钢结构拱架,greenhouse_component,peony,49.0,3.4,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01540,芍药基地_大棚2_纵向檩条,greenhouse_component,peony,25.0,2.0,-53.1,QH-PEONY-GH-02,
+QH-PEONY-01541,芍药基地_大棚2_纵向檩条,greenhouse_component,peony,25.0,4.09,-51.66,QH-PEONY-GH-02,
+QH-PEONY-01542,芍药基地_大棚2_纵向檩条,greenhouse_component,peony,25.0,4.75,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01543,芍药基地_大棚2_纵向檩条,greenhouse_component,peony,25.0,4.09,-46.34,QH-PEONY-GH-02,
+QH-PEONY-01544,芍药基地_大棚2_纵向檩条,greenhouse_component,peony,25.0,2.0,-44.9,QH-PEONY-GH-02,
+QH-PEONY-01553,芍药基地_大棚2_滴灌管线,irrigation,peony,25.0,0.3,-51.71,QH-PEONY-GH-02,QH-PEONY-01553.flow / QH-PEONY-01553.status
+QH-PEONY-01555,芍药基地_大棚2_滴灌管线,irrigation,peony,25.0,0.3,-49.9,QH-PEONY-GH-02,QH-PEONY-01555.flow / QH-PEONY-01555.status
+QH-PEONY-01557,芍药基地_大棚2_滴灌管线,irrigation,peony,25.0,0.3,-48.1,QH-PEONY-GH-02,QH-PEONY-01557.flow / QH-PEONY-01557.status
+QH-PEONY-01559,芍药基地_大棚2_滴灌管线,irrigation,peony,25.0,0.3,-46.29,QH-PEONY-GH-02,QH-PEONY-01559.flow / QH-PEONY-01559.status
+QH-PEONY-01560,芍药基地_大棚2_内部作物行,greenhouse_component,peony,25.0,0.71,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01638,芍药基地_大棚2_喷灌支管,irrigation,peony,5.0,3.38,-49.0,QH-PEONY-GH-02,QH-PEONY-01638.flow / QH-PEONY-01638.status
+QH-PEONY-01643,芍药基地_大棚2_喷灌支管,irrigation,peony,18.33,3.38,-49.0,QH-PEONY-GH-02,QH-PEONY-01643.flow / QH-PEONY-01643.status
+QH-PEONY-01648,芍药基地_大棚2_喷灌支管,irrigation,peony,31.67,3.38,-49.0,QH-PEONY-GH-02,QH-PEONY-01648.flow / QH-PEONY-01648.status
+QH-PEONY-01653,芍药基地_大棚2_喷灌支管,irrigation,peony,45.0,3.38,-49.0,QH-PEONY-GH-02,QH-PEONY-01653.flow / QH-PEONY-01653.status
+QH-PEONY-01658,芍药基地_大棚2_端墙排风机外框,ventilation,peony,0.9200000000000016,1.55,-49.0,QH-PEONY-GH-02,QH-PEONY-01658.speed / QH-PEONY-01658.status
+QH-PEONY-01659,芍药基地_大棚2_排风机电机轴,ventilation,peony,0.9200000000000016,1.55,-49.0,QH-PEONY-GH-02,QH-PEONY-01659.speed / QH-PEONY-01659.status
+QH-PEONY-01660,芍药基地_大棚2_排风机叶片,ventilation,peony,0.9200000000000016,1.55,-48.66,QH-PEONY-GH-02,QH-PEONY-01660.speed / QH-PEONY-01660.status
+QH-PEONY-01661,芍药基地_大棚2_排风机叶片,ventilation,peony,0.9200000000000016,1.87,-48.89,QH-PEONY-GH-02,QH-PEONY-01661.speed / QH-PEONY-01661.status
+QH-PEONY-01662,芍药基地_大棚2_排风机叶片,ventilation,peony,0.9200000000000016,1.75,-49.28,QH-PEONY-GH-02,QH-PEONY-01662.speed / QH-PEONY-01662.status
+QH-PEONY-01663,芍药基地_大棚2_排风机叶片,ventilation,peony,0.9200000000000016,1.35,-49.28,QH-PEONY-GH-02,QH-PEONY-01663.speed / QH-PEONY-01663.status
+QH-PEONY-01664,芍药基地_大棚2_排风机叶片,ventilation,peony,0.9200000000000016,1.23,-48.89,QH-PEONY-GH-02,QH-PEONY-01664.speed / QH-PEONY-01664.status
+QH-PEONY-01665,芍药基地_大棚2_排风机防护网,ventilation,peony,0.8599999999999994,1.55,-49.42,QH-PEONY-GH-02,QH-PEONY-01665.speed / QH-PEONY-01665.status
+QH-PEONY-01666,芍药基地_大棚2_排风机防护网,ventilation,peony,0.8599999999999994,1.55,-49.14,QH-PEONY-GH-02,QH-PEONY-01666.speed / QH-PEONY-01666.status
+QH-PEONY-01667,芍药基地_大棚2_排风机防护网,ventilation,peony,0.8599999999999994,1.55,-48.86,QH-PEONY-GH-02,QH-PEONY-01667.speed / QH-PEONY-01667.status
+QH-PEONY-01668,芍药基地_大棚2_排风机防护网,ventilation,peony,0.8599999999999994,1.55,-48.58,QH-PEONY-GH-02,QH-PEONY-01668.speed / QH-PEONY-01668.status
+QH-PEONY-01669,芍药基地_大棚2_端墙排风机外框,ventilation,peony,49.08,1.55,-49.0,QH-PEONY-GH-02,QH-PEONY-01669.speed / QH-PEONY-01669.status
+QH-PEONY-01670,芍药基地_大棚2_排风机电机轴,ventilation,peony,49.08,1.55,-49.0,QH-PEONY-GH-02,QH-PEONY-01670.speed / QH-PEONY-01670.status
+QH-PEONY-01671,芍药基地_大棚2_排风机叶片,ventilation,peony,49.08,1.55,-48.66,QH-PEONY-GH-02,QH-PEONY-01671.speed / QH-PEONY-01671.status
+QH-PEONY-01672,芍药基地_大棚2_排风机叶片,ventilation,peony,49.08,1.87,-48.89,QH-PEONY-GH-02,QH-PEONY-01672.speed / QH-PEONY-01672.status
+QH-PEONY-01673,芍药基地_大棚2_排风机叶片,ventilation,peony,49.08,1.75,-49.28,QH-PEONY-GH-02,QH-PEONY-01673.speed / QH-PEONY-01673.status
+QH-PEONY-01674,芍药基地_大棚2_排风机叶片,ventilation,peony,49.08,1.35,-49.28,QH-PEONY-GH-02,QH-PEONY-01674.speed / QH-PEONY-01674.status
+QH-PEONY-01675,芍药基地_大棚2_排风机叶片,ventilation,peony,49.08,1.23,-48.89,QH-PEONY-GH-02,QH-PEONY-01675.speed / QH-PEONY-01675.status
+QH-PEONY-01676,芍药基地_大棚2_排风机防护网,ventilation,peony,49.02,1.55,-49.42,QH-PEONY-GH-02,QH-PEONY-01676.speed / QH-PEONY-01676.status
+QH-PEONY-01677,芍药基地_大棚2_排风机防护网,ventilation,peony,49.02,1.55,-49.14,QH-PEONY-GH-02,QH-PEONY-01677.speed / QH-PEONY-01677.status
+QH-PEONY-01678,芍药基地_大棚2_排风机防护网,ventilation,peony,49.02,1.55,-48.86,QH-PEONY-GH-02,QH-PEONY-01678.speed / QH-PEONY-01678.status
+QH-PEONY-01679,芍药基地_大棚2_排风机防护网,ventilation,peony,49.02,1.55,-48.58,QH-PEONY-GH-02,QH-PEONY-01679.speed / QH-PEONY-01679.status
+QH-PEONY-01680,芍药基地_大棚2_循环风扇吊杆,ventilation,peony,9.0,3.75,-49.0,QH-PEONY-GH-02,QH-PEONY-01680.speed / QH-PEONY-01680.status
+QH-PEONY-01681,芍药基地_大棚2_循环风扇电机,ventilation,peony,9.0,3.99,-49.0,QH-PEONY-GH-02,QH-PEONY-01681.speed / QH-PEONY-01681.status
+QH-PEONY-01682,芍药基地_大棚2_循环风扇叶片,ventilation,peony,9.0,3.99,-48.63,QH-PEONY-GH-02,QH-PEONY-01682.speed / QH-PEONY-01682.status
+QH-PEONY-01683,芍药基地_大棚2_循环风扇叶片,ventilation,peony,9.0,4.36,-49.0,QH-PEONY-GH-02,QH-PEONY-01683.speed / QH-PEONY-01683.status
+QH-PEONY-01684,芍药基地_大棚2_循环风扇叶片,ventilation,peony,9.0,3.99,-49.37,QH-PEONY-GH-02,QH-PEONY-01684.speed / QH-PEONY-01684.status
+QH-PEONY-01685,芍药基地_大棚2_循环风扇叶片,ventilation,peony,9.0,3.62,-49.0,QH-PEONY-GH-02,QH-PEONY-01685.speed / QH-PEONY-01685.status
+QH-PEONY-01686,芍药基地_大棚2_循环风扇吊杆,ventilation,peony,25.0,3.75,-49.0,QH-PEONY-GH-02,QH-PEONY-01686.speed / QH-PEONY-01686.status
+QH-PEONY-01687,芍药基地_大棚2_循环风扇电机,ventilation,peony,25.0,3.99,-49.0,QH-PEONY-GH-02,QH-PEONY-01687.speed / QH-PEONY-01687.status
+QH-PEONY-01688,芍药基地_大棚2_循环风扇叶片,ventilation,peony,25.0,3.99,-48.63,QH-PEONY-GH-02,QH-PEONY-01688.speed / QH-PEONY-01688.status
+QH-PEONY-01689,芍药基地_大棚2_循环风扇叶片,ventilation,peony,25.0,4.36,-49.0,QH-PEONY-GH-02,QH-PEONY-01689.speed / QH-PEONY-01689.status
+QH-PEONY-01690,芍药基地_大棚2_循环风扇叶片,ventilation,peony,25.0,3.99,-49.37,QH-PEONY-GH-02,QH-PEONY-01690.speed / QH-PEONY-01690.status
+QH-PEONY-01691,芍药基地_大棚2_循环风扇叶片,ventilation,peony,25.0,3.62,-49.0,QH-PEONY-GH-02,QH-PEONY-01691.speed / QH-PEONY-01691.status
+QH-PEONY-01692,芍药基地_大棚2_循环风扇吊杆,ventilation,peony,41.0,3.75,-49.0,QH-PEONY-GH-02,QH-PEONY-01692.speed / QH-PEONY-01692.status
+QH-PEONY-01693,芍药基地_大棚2_循环风扇电机,ventilation,peony,41.0,3.99,-49.0,QH-PEONY-GH-02,QH-PEONY-01693.speed / QH-PEONY-01693.status
+QH-PEONY-01694,芍药基地_大棚2_循环风扇叶片,ventilation,peony,41.0,3.99,-48.63,QH-PEONY-GH-02,QH-PEONY-01694.speed / QH-PEONY-01694.status
+QH-PEONY-01695,芍药基地_大棚2_循环风扇叶片,ventilation,peony,41.0,4.36,-49.0,QH-PEONY-GH-02,QH-PEONY-01695.speed / QH-PEONY-01695.status
+QH-PEONY-01696,芍药基地_大棚2_循环风扇叶片,ventilation,peony,41.0,3.99,-49.37,QH-PEONY-GH-02,QH-PEONY-01696.speed / QH-PEONY-01696.status
+QH-PEONY-01697,芍药基地_大棚2_循环风扇叶片,ventilation,peony,41.0,3.62,-49.0,QH-PEONY-GH-02,QH-PEONY-01697.speed / QH-PEONY-01697.status
+QH-PEONY-01698,芍药基地_大棚2_环境控制柜,greenhouse_component,peony,3.200000000000003,1.05,-46.05,QH-PEONY-GH-02,
+QH-PEONY-01699,芍药基地_大棚2_控制柜操作面板,greenhouse_component,peony,2.950000000000003,1.3,-46.05,QH-PEONY-GH-02,
+QH-PEONY-01701,芍药基地_大棚2_环境传感器立杆,sensor,peony,13.0,1.47,-47.56,QH-PEONY-GH-02,QH-PEONY-01701.value / QH-PEONY-01701.status
+QH-PEONY-01702,芍药基地_大棚2_温湿度传感器,sensor,peony,13.0,2.45,-47.56,QH-PEONY-GH-02,QH-PEONY-01702.value / QH-PEONY-01702.status
+QH-PEONY-01703,芍药基地_大棚2_传感器状态灯,sensor,peony,13.0,2.72,-47.56,QH-PEONY-GH-02,QH-PEONY-01703.value / QH-PEONY-01703.status
+QH-PEONY-01704,芍药基地_大棚2_土壤湿度探头,sensor,peony,13.0,0.42,-48.79,QH-PEONY-GH-02,QH-PEONY-01704.value / QH-PEONY-01704.status
+QH-PEONY-01705,芍药基地_大棚2_土壤湿度传感器,sensor,peony,13.0,0.76,-48.8,QH-PEONY-GH-02,QH-PEONY-01705.value / QH-PEONY-01705.status
+QH-PEONY-01706,芍药基地_大棚2_环境传感器立杆,sensor,peony,37.0,1.47,-47.56,QH-PEONY-GH-02,QH-PEONY-01706.value / QH-PEONY-01706.status
+QH-PEONY-01707,芍药基地_大棚2_温湿度传感器,sensor,peony,37.0,2.45,-47.56,QH-PEONY-GH-02,QH-PEONY-01707.value / QH-PEONY-01707.status
+QH-PEONY-01708,芍药基地_大棚2_传感器状态灯,sensor,peony,37.0,2.72,-47.56,QH-PEONY-GH-02,QH-PEONY-01708.value / QH-PEONY-01708.status
+QH-PEONY-01709,芍药基地_大棚2_土壤湿度探头,sensor,peony,37.0,0.42,-48.79,QH-PEONY-GH-02,QH-PEONY-01709.value / QH-PEONY-01709.status
+QH-PEONY-01710,芍药基地_大棚2_土壤湿度传感器,sensor,peony,37.0,0.76,-48.8,QH-PEONY-GH-02,QH-PEONY-01710.value / QH-PEONY-01710.status
+QH-PEONY-01711,芍药基地_大棚2_区域标识牌,greenhouse_component,peony,-0.2000000000000028,2.9,-49.0,QH-PEONY-GH-02,
+QH-PEONY-01720,芍药基地_大棚3_侧墙透光板,greenhouse_component,peony,25.0,1.0,-66.1,QH-PEONY-GH-03,
+QH-PEONY-01721,芍药基地_大棚3_侧墙透光板,greenhouse_component,peony,25.0,1.0,-57.9,QH-PEONY-GH-03,
+QH-PEONY-01722,芍药基地_大棚3_拱形棚膜,greenhouse_component,peony,25.0,3.38,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01723,芍药基地_大棚3_端墙透光板,greenhouse_component,peony,1.0,2.38,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01724,芍药基地_大棚3_端墙透光板,greenhouse_component,peony,49.0,2.38,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01725,芍药基地_大棚3_钢结构拱架,greenhouse_component,peony,1.0,3.4,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01728,芍药基地_大棚3_钢结构拱架,greenhouse_component,peony,5.0,3.4,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01731,芍药基地_大棚3_钢结构拱架,greenhouse_component,peony,9.0,3.4,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01734,芍药基地_大棚3_钢结构拱架,greenhouse_component,peony,13.0,3.4,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01737,芍药基地_大棚3_钢结构拱架,greenhouse_component,peony,17.0,3.4,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01740,芍药基地_大棚3_钢结构拱架,greenhouse_component,peony,21.0,3.4,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01743,芍药基地_大棚3_钢结构拱架,greenhouse_component,peony,25.0,3.4,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01746,芍药基地_大棚3_钢结构拱架,greenhouse_component,peony,29.0,3.4,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01749,芍药基地_大棚3_钢结构拱架,greenhouse_component,peony,33.0,3.4,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01752,芍药基地_大棚3_钢结构拱架,greenhouse_component,peony,37.0,3.4,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01755,芍药基地_大棚3_钢结构拱架,greenhouse_component,peony,41.0,3.4,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01758,芍药基地_大棚3_钢结构拱架,greenhouse_component,peony,45.0,3.4,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01761,芍药基地_大棚3_钢结构拱架,greenhouse_component,peony,49.0,3.4,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01764,芍药基地_大棚3_纵向檩条,greenhouse_component,peony,25.0,2.0,-66.1,QH-PEONY-GH-03,
+QH-PEONY-01765,芍药基地_大棚3_纵向檩条,greenhouse_component,peony,25.0,4.09,-64.66,QH-PEONY-GH-03,
+QH-PEONY-01766,芍药基地_大棚3_纵向檩条,greenhouse_component,peony,25.0,4.75,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01767,芍药基地_大棚3_纵向檩条,greenhouse_component,peony,25.0,4.09,-59.34,QH-PEONY-GH-03,
+QH-PEONY-01768,芍药基地_大棚3_纵向檩条,greenhouse_component,peony,25.0,2.0,-57.9,QH-PEONY-GH-03,
+QH-PEONY-01777,芍药基地_大棚3_滴灌管线,irrigation,peony,25.0,0.3,-64.71000000000001,QH-PEONY-GH-03,QH-PEONY-01777.flow / QH-PEONY-01777.status
+QH-PEONY-01779,芍药基地_大棚3_滴灌管线,irrigation,peony,25.0,0.3,-62.9,QH-PEONY-GH-03,QH-PEONY-01779.flow / QH-PEONY-01779.status
+QH-PEONY-01781,芍药基地_大棚3_滴灌管线,irrigation,peony,25.0,0.3,-61.1,QH-PEONY-GH-03,QH-PEONY-01781.flow / QH-PEONY-01781.status
+QH-PEONY-01783,芍药基地_大棚3_滴灌管线,irrigation,peony,25.0,0.3,-59.29,QH-PEONY-GH-03,QH-PEONY-01783.flow / QH-PEONY-01783.status
+QH-PEONY-01784,芍药基地_大棚3_内部作物行,greenhouse_component,peony,25.0,0.71,-62.0,QH-PEONY-GH-03,
+QH-PEONY-01862,芍药基地_大棚3_喷灌支管,irrigation,peony,5.0,3.38,-62.0,QH-PEONY-GH-03,QH-PEONY-01862.flow / QH-PEONY-01862.status
+QH-PEONY-01867,芍药基地_大棚3_喷灌支管,irrigation,peony,18.33,3.38,-62.0,QH-PEONY-GH-03,QH-PEONY-01867.flow / QH-PEONY-01867.status
+QH-PEONY-01872,芍药基地_大棚3_喷灌支管,irrigation,peony,31.67,3.38,-62.0,QH-PEONY-GH-03,QH-PEONY-01872.flow / QH-PEONY-01872.status
+QH-PEONY-01877,芍药基地_大棚3_喷灌支管,irrigation,peony,45.0,3.38,-62.0,QH-PEONY-GH-03,QH-PEONY-01877.flow / QH-PEONY-01877.status
+QH-PEONY-01882,芍药基地_大棚3_端墙排风机外框,ventilation,peony,0.9200000000000016,1.55,-62.0,QH-PEONY-GH-03,QH-PEONY-01882.speed / QH-PEONY-01882.status
+QH-PEONY-01883,芍药基地_大棚3_排风机电机轴,ventilation,peony,0.9200000000000016,1.55,-62.0,QH-PEONY-GH-03,QH-PEONY-01883.speed / QH-PEONY-01883.status
+QH-PEONY-01884,芍药基地_大棚3_排风机叶片,ventilation,peony,0.9200000000000016,1.55,-61.66,QH-PEONY-GH-03,QH-PEONY-01884.speed / QH-PEONY-01884.status
+QH-PEONY-01885,芍药基地_大棚3_排风机叶片,ventilation,peony,0.9200000000000016,1.87,-61.89,QH-PEONY-GH-03,QH-PEONY-01885.speed / QH-PEONY-01885.status
+QH-PEONY-01886,芍药基地_大棚3_排风机叶片,ventilation,peony,0.9200000000000016,1.75,-62.28,QH-PEONY-GH-03,QH-PEONY-01886.speed / QH-PEONY-01886.status
+QH-PEONY-01887,芍药基地_大棚3_排风机叶片,ventilation,peony,0.9200000000000016,1.35,-62.28,QH-PEONY-GH-03,QH-PEONY-01887.speed / QH-PEONY-01887.status
+QH-PEONY-01888,芍药基地_大棚3_排风机叶片,ventilation,peony,0.9200000000000016,1.23,-61.89,QH-PEONY-GH-03,QH-PEONY-01888.speed / QH-PEONY-01888.status
+QH-PEONY-01889,芍药基地_大棚3_排风机防护网,ventilation,peony,0.8599999999999994,1.55,-62.42,QH-PEONY-GH-03,QH-PEONY-01889.speed / QH-PEONY-01889.status
+QH-PEONY-01890,芍药基地_大棚3_排风机防护网,ventilation,peony,0.8599999999999994,1.55,-62.14,QH-PEONY-GH-03,QH-PEONY-01890.speed / QH-PEONY-01890.status
+QH-PEONY-01891,芍药基地_大棚3_排风机防护网,ventilation,peony,0.8599999999999994,1.55,-61.86,QH-PEONY-GH-03,QH-PEONY-01891.speed / QH-PEONY-01891.status
+QH-PEONY-01892,芍药基地_大棚3_排风机防护网,ventilation,peony,0.8599999999999994,1.55,-61.58,QH-PEONY-GH-03,QH-PEONY-01892.speed / QH-PEONY-01892.status
+QH-PEONY-01893,芍药基地_大棚3_端墙排风机外框,ventilation,peony,49.08,1.55,-62.0,QH-PEONY-GH-03,QH-PEONY-01893.speed / QH-PEONY-01893.status
+QH-PEONY-01894,芍药基地_大棚3_排风机电机轴,ventilation,peony,49.08,1.55,-62.0,QH-PEONY-GH-03,QH-PEONY-01894.speed / QH-PEONY-01894.status
+QH-PEONY-01895,芍药基地_大棚3_排风机叶片,ventilation,peony,49.08,1.55,-61.66,QH-PEONY-GH-03,QH-PEONY-01895.speed / QH-PEONY-01895.status
+QH-PEONY-01896,芍药基地_大棚3_排风机叶片,ventilation,peony,49.08,1.87,-61.89,QH-PEONY-GH-03,QH-PEONY-01896.speed / QH-PEONY-01896.status
+QH-PEONY-01897,芍药基地_大棚3_排风机叶片,ventilation,peony,49.08,1.75,-62.28,QH-PEONY-GH-03,QH-PEONY-01897.speed / QH-PEONY-01897.status
+QH-PEONY-01898,芍药基地_大棚3_排风机叶片,ventilation,peony,49.08,1.35,-62.28,QH-PEONY-GH-03,QH-PEONY-01898.speed / QH-PEONY-01898.status
+QH-PEONY-01899,芍药基地_大棚3_排风机叶片,ventilation,peony,49.08,1.23,-61.89,QH-PEONY-GH-03,QH-PEONY-01899.speed / QH-PEONY-01899.status
+QH-PEONY-01900,芍药基地_大棚3_排风机防护网,ventilation,peony,49.02,1.55,-62.42,QH-PEONY-GH-03,QH-PEONY-01900.speed / QH-PEONY-01900.status
+QH-PEONY-01901,芍药基地_大棚3_排风机防护网,ventilation,peony,49.02,1.55,-62.14,QH-PEONY-GH-03,QH-PEONY-01901.speed / QH-PEONY-01901.status
+QH-PEONY-01902,芍药基地_大棚3_排风机防护网,ventilation,peony,49.02,1.55,-61.86,QH-PEONY-GH-03,QH-PEONY-01902.speed / QH-PEONY-01902.status
+QH-PEONY-01903,芍药基地_大棚3_排风机防护网,ventilation,peony,49.02,1.55,-61.58,QH-PEONY-GH-03,QH-PEONY-01903.speed / QH-PEONY-01903.status
+QH-PEONY-01904,芍药基地_大棚3_循环风扇吊杆,ventilation,peony,9.0,3.75,-62.0,QH-PEONY-GH-03,QH-PEONY-01904.speed / QH-PEONY-01904.status
+QH-PEONY-01905,芍药基地_大棚3_循环风扇电机,ventilation,peony,9.0,3.99,-62.0,QH-PEONY-GH-03,QH-PEONY-01905.speed / QH-PEONY-01905.status
+QH-PEONY-01906,芍药基地_大棚3_循环风扇叶片,ventilation,peony,9.0,3.99,-61.63,QH-PEONY-GH-03,QH-PEONY-01906.speed / QH-PEONY-01906.status
+QH-PEONY-01907,芍药基地_大棚3_循环风扇叶片,ventilation,peony,9.0,4.36,-62.0,QH-PEONY-GH-03,QH-PEONY-01907.speed / QH-PEONY-01907.status
+QH-PEONY-01908,芍药基地_大棚3_循环风扇叶片,ventilation,peony,9.0,3.99,-62.37,QH-PEONY-GH-03,QH-PEONY-01908.speed / QH-PEONY-01908.status
+QH-PEONY-01909,芍药基地_大棚3_循环风扇叶片,ventilation,peony,9.0,3.62,-62.0,QH-PEONY-GH-03,QH-PEONY-01909.speed / QH-PEONY-01909.status
+QH-PEONY-01910,芍药基地_大棚3_循环风扇吊杆,ventilation,peony,25.0,3.75,-62.0,QH-PEONY-GH-03,QH-PEONY-01910.speed / QH-PEONY-01910.status
+QH-PEONY-01911,芍药基地_大棚3_循环风扇电机,ventilation,peony,25.0,3.99,-62.0,QH-PEONY-GH-03,QH-PEONY-01911.speed / QH-PEONY-01911.status
+QH-PEONY-01912,芍药基地_大棚3_循环风扇叶片,ventilation,peony,25.0,3.99,-61.63,QH-PEONY-GH-03,QH-PEONY-01912.speed / QH-PEONY-01912.status
+QH-PEONY-01913,芍药基地_大棚3_循环风扇叶片,ventilation,peony,25.0,4.36,-62.0,QH-PEONY-GH-03,QH-PEONY-01913.speed / QH-PEONY-01913.status
+QH-PEONY-01914,芍药基地_大棚3_循环风扇叶片,ventilation,peony,25.0,3.99,-62.37,QH-PEONY-GH-03,QH-PEONY-01914.speed / QH-PEONY-01914.status
+QH-PEONY-01915,芍药基地_大棚3_循环风扇叶片,ventilation,peony,25.0,3.62,-62.0,QH-PEONY-GH-03,QH-PEONY-01915.speed / QH-PEONY-01915.status
+QH-PEONY-01916,芍药基地_大棚3_循环风扇吊杆,ventilation,peony,41.0,3.75,-62.0,QH-PEONY-GH-03,QH-PEONY-01916.speed / QH-PEONY-01916.status
+QH-PEONY-01917,芍药基地_大棚3_循环风扇电机,ventilation,peony,41.0,3.99,-62.0,QH-PEONY-GH-03,QH-PEONY-01917.speed / QH-PEONY-01917.status
+QH-PEONY-01918,芍药基地_大棚3_循环风扇叶片,ventilation,peony,41.0,3.99,-61.63,QH-PEONY-GH-03,QH-PEONY-01918.speed / QH-PEONY-01918.status
+QH-PEONY-01919,芍药基地_大棚3_循环风扇叶片,ventilation,peony,41.0,4.36,-62.0,QH-PEONY-GH-03,QH-PEONY-01919.speed / QH-PEONY-01919.status
+QH-PEONY-01920,芍药基地_大棚3_循环风扇叶片,ventilation,peony,41.0,3.99,-62.37,QH-PEONY-GH-03,QH-PEONY-01920.speed / QH-PEONY-01920.status
+QH-PEONY-01921,芍药基地_大棚3_循环风扇叶片,ventilation,peony,41.0,3.62,-62.0,QH-PEONY-GH-03,QH-PEONY-01921.speed / QH-PEONY-01921.status
+QH-PEONY-01922,芍药基地_大棚3_环境控制柜,greenhouse_component,peony,3.200000000000003,1.05,-59.05,QH-PEONY-GH-03,
+QH-PEONY-01923,芍药基地_大棚3_控制柜操作面板,greenhouse_component,peony,2.950000000000003,1.3,-59.05,QH-PEONY-GH-03,
+QH-PEONY-01925,芍药基地_大棚3_环境传感器立杆,sensor,peony,13.0,1.47,-60.56,QH-PEONY-GH-03,QH-PEONY-01925.value / QH-PEONY-01925.status
+QH-PEONY-01926,芍药基地_大棚3_温湿度传感器,sensor,peony,13.0,2.45,-60.56,QH-PEONY-GH-03,QH-PEONY-01926.value / QH-PEONY-01926.status
+QH-PEONY-01927,芍药基地_大棚3_传感器状态灯,sensor,peony,13.0,2.72,-60.56,QH-PEONY-GH-03,QH-PEONY-01927.value / QH-PEONY-01927.status
+QH-PEONY-01928,芍药基地_大棚3_土壤湿度探头,sensor,peony,13.0,0.42,-61.79,QH-PEONY-GH-03,QH-PEONY-01928.value / QH-PEONY-01928.status
+QH-PEONY-01929,芍药基地_大棚3_土壤湿度传感器,sensor,peony,13.0,0.76,-61.8,QH-PEONY-GH-03,QH-PEONY-01929.value / QH-PEONY-01929.status
+QH-PEONY-01930,芍药基地_大棚3_环境传感器立杆,sensor,peony,37.0,1.47,-60.56,QH-PEONY-GH-03,QH-PEONY-01930.value / QH-PEONY-01930.status
+QH-PEONY-01931,芍药基地_大棚3_温湿度传感器,sensor,peony,37.0,2.45,-60.56,QH-PEONY-GH-03,QH-PEONY-01931.value / QH-PEONY-01931.status
+QH-PEONY-01932,芍药基地_大棚3_传感器状态灯,sensor,peony,37.0,2.72,-60.56,QH-PEONY-GH-03,QH-PEONY-01932.value / QH-PEONY-01932.status
+QH-PEONY-01933,芍药基地_大棚3_土壤湿度探头,sensor,peony,37.0,0.42,-61.79,QH-PEONY-GH-03,QH-PEONY-01933.value / QH-PEONY-01933.status
+QH-PEONY-01934,芍药基地_大棚3_土壤湿度传感器,sensor,peony,37.0,0.76,-61.8,QH-PEONY-GH-03,QH-PEONY-01934.value / QH-PEONY-01934.status
+QH-SMART-01947,数智农业实践研学中心_主大棚_侧墙透光板,greenhouse_component,smart,4.0,1.0,10.0,QH-SMART-GH-01,
+QH-SMART-01948,数智农业实践研学中心_主大棚_侧墙透光板,greenhouse_component,smart,14.0,1.0,10.0,QH-SMART-GH-01,
+QH-SMART-01949,数智农业实践研学中心_主大棚_拱形棚膜,greenhouse_component,smart,9.0,3.4,10.0,QH-SMART-GH-01,
+QH-SMART-01950,数智农业实践研学中心_主大棚_端墙透光板,greenhouse_component,smart,9.0,2.4,34.0,QH-SMART-GH-01,
+QH-SMART-01951,数智农业实践研学中心_主大棚_端墙透光板,greenhouse_component,smart,9.0,2.4,-14.0,QH-SMART-GH-01,
+QH-SMART-01952,数智农业实践研学中心_主大棚_钢结构拱架,greenhouse_component,smart,9.0,3.43,34.0,QH-SMART-GH-01,
+QH-SMART-01955,数智农业实践研学中心_主大棚_钢结构拱架,greenhouse_component,smart,9.0,3.43,30.0,QH-SMART-GH-01,
+QH-SMART-01958,数智农业实践研学中心_主大棚_钢结构拱架,greenhouse_component,smart,9.0,3.43,26.0,QH-SMART-GH-01,
+QH-SMART-01961,数智农业实践研学中心_主大棚_钢结构拱架,greenhouse_component,smart,9.0,3.43,22.0,QH-SMART-GH-01,
+QH-SMART-01964,数智农业实践研学中心_主大棚_钢结构拱架,greenhouse_component,smart,9.0,3.43,18.0,QH-SMART-GH-01,
+QH-SMART-01967,数智农业实践研学中心_主大棚_钢结构拱架,greenhouse_component,smart,9.0,3.43,14.0,QH-SMART-GH-01,
+QH-SMART-01970,数智农业实践研学中心_主大棚_钢结构拱架,greenhouse_component,smart,9.0,3.43,10.0,QH-SMART-GH-01,
+QH-SMART-01973,数智农业实践研学中心_主大棚_钢结构拱架,greenhouse_component,smart,9.0,3.43,6.0,QH-SMART-GH-01,
+QH-SMART-01976,数智农业实践研学中心_主大棚_钢结构拱架,greenhouse_component,smart,9.0,3.43,2.0,QH-SMART-GH-01,
+QH-SMART-01979,数智农业实践研学中心_主大棚_钢结构拱架,greenhouse_component,smart,9.0,3.43,-2.0,QH-SMART-GH-01,
+QH-SMART-01982,数智农业实践研学中心_主大棚_钢结构拱架,greenhouse_component,smart,9.0,3.43,-6.0,QH-SMART-GH-01,
+QH-SMART-01985,数智农业实践研学中心_主大棚_钢结构拱架,greenhouse_component,smart,9.0,3.43,-10.0,QH-SMART-GH-01,
+QH-SMART-01988,数智农业实践研学中心_主大棚_钢结构拱架,greenhouse_component,smart,9.0,3.43,-14.0,QH-SMART-GH-01,
+QH-SMART-01991,数智农业实践研学中心_主大棚_纵向檩条,greenhouse_component,smart,4.0,2.0,10.0,QH-SMART-GH-01,
+QH-SMART-01992,数智农业实践研学中心_主大棚_纵向檩条,greenhouse_component,smart,5.75,4.13,10.0,QH-SMART-GH-01,
+QH-SMART-01993,数智农业实践研学中心_主大棚_纵向檩条,greenhouse_component,smart,9.0,4.8,10.0,QH-SMART-GH-01,
+QH-SMART-01994,数智农业实践研学中心_主大棚_纵向檩条,greenhouse_component,smart,12.25,4.13,10.0,QH-SMART-GH-01,
+QH-SMART-01995,数智农业实践研学中心_主大棚_纵向檩条,greenhouse_component,smart,14.0,2.0,10.0,QH-SMART-GH-01,
+QH-SMART-02005,数智农业实践研学中心_主大棚_滴灌管线,irrigation,smart,5.700000000000003,0.3,10.0,QH-SMART-GH-01,QH-SMART-02005.flow / QH-SMART-02005.status
+QH-SMART-02007,数智农业实践研学中心_主大棚_滴灌管线,irrigation,smart,7.900000000000006,0.3,10.0,QH-SMART-GH-01,QH-SMART-02007.flow / QH-SMART-02007.status
+QH-SMART-02009,数智农业实践研学中心_主大棚_滴灌管线,irrigation,smart,10.099999999999994,0.3,10.0,QH-SMART-GH-01,QH-SMART-02009.flow / QH-SMART-02009.status
+QH-SMART-02011,数智农业实践研学中心_主大棚_滴灌管线,irrigation,smart,12.299999999999995,0.3,10.0,QH-SMART-GH-01,QH-SMART-02011.flow / QH-SMART-02011.status
+QH-SMART-02012,数智农业实践研学中心_主大棚_内部作物行,greenhouse_component,smart,9.010000000000003,0.53,10.02,QH-SMART-GH-01,
+QH-SMART-02090,数智农业实践研学中心_主大棚_喷灌支管,irrigation,smart,9.0,3.4,30.0,QH-SMART-GH-01,QH-SMART-02090.flow / QH-SMART-02090.status
+QH-SMART-02095,数智农业实践研学中心_主大棚_喷灌支管,irrigation,smart,9.0,3.4,16.67,QH-SMART-GH-01,QH-SMART-02095.flow / QH-SMART-02095.status
+QH-SMART-02100,数智农业实践研学中心_主大棚_喷灌支管,irrigation,smart,9.0,3.4,3.3299999999999983,QH-SMART-GH-01,QH-SMART-02100.flow / QH-SMART-02100.status
+QH-SMART-02105,数智农业实践研学中心_主大棚_喷灌支管,irrigation,smart,9.0,3.4,-10.0,QH-SMART-GH-01,QH-SMART-02105.flow / QH-SMART-02105.status
+QH-SMART-02110,数智农业实践研学中心_主大棚_端墙排风机外框,ventilation,smart,9.0,1.55,34.08,QH-SMART-GH-01,QH-SMART-02110.speed / QH-SMART-02110.status
+QH-SMART-02111,数智农业实践研学中心_主大棚_排风机电机轴,ventilation,smart,9.0,1.55,34.08,QH-SMART-GH-01,QH-SMART-02111.speed / QH-SMART-02111.status
+QH-SMART-02112,数智农业实践研学中心_主大棚_排风机叶片,ventilation,smart,9.340000000000003,1.55,34.08,QH-SMART-GH-01,QH-SMART-02112.speed / QH-SMART-02112.status
+QH-SMART-02113,数智农业实践研学中心_主大棚_排风机叶片,ventilation,smart,9.11,1.87,34.08,QH-SMART-GH-01,QH-SMART-02113.speed / QH-SMART-02113.status
+QH-SMART-02114,数智农业实践研学中心_主大棚_排风机叶片,ventilation,smart,8.719999999999999,1.75,34.08,QH-SMART-GH-01,QH-SMART-02114.speed / QH-SMART-02114.status
+QH-SMART-02115,数智农业实践研学中心_主大棚_排风机叶片,ventilation,smart,8.719999999999999,1.35,34.08,QH-SMART-GH-01,QH-SMART-02115.speed / QH-SMART-02115.status
+QH-SMART-02116,数智农业实践研学中心_主大棚_排风机叶片,ventilation,smart,9.11,1.23,34.08,QH-SMART-GH-01,QH-SMART-02116.speed / QH-SMART-02116.status
+QH-SMART-02117,数智农业实践研学中心_主大棚_排风机防护网,ventilation,smart,8.579999999999998,1.55,34.14,QH-SMART-GH-01,QH-SMART-02117.speed / QH-SMART-02117.status
+QH-SMART-02118,数智农业实践研学中心_主大棚_排风机防护网,ventilation,smart,8.86,1.55,34.14,QH-SMART-GH-01,QH-SMART-02118.speed / QH-SMART-02118.status
+QH-SMART-02119,数智农业实践研学中心_主大棚_排风机防护网,ventilation,smart,9.14,1.55,34.14,QH-SMART-GH-01,QH-SMART-02119.speed / QH-SMART-02119.status
+QH-SMART-02120,数智农业实践研学中心_主大棚_排风机防护网,ventilation,smart,9.420000000000002,1.55,34.14,QH-SMART-GH-01,QH-SMART-02120.speed / QH-SMART-02120.status
+QH-SMART-02121,数智农业实践研学中心_主大棚_端墙排风机外框,ventilation,smart,9.0,1.55,-14.079999999999998,QH-SMART-GH-01,QH-SMART-02121.speed / QH-SMART-02121.status
+QH-SMART-02122,数智农业实践研学中心_主大棚_排风机电机轴,ventilation,smart,9.0,1.55,-14.079999999999998,QH-SMART-GH-01,QH-SMART-02122.speed / QH-SMART-02122.status
+QH-SMART-02123,数智农业实践研学中心_主大棚_排风机叶片,ventilation,smart,9.340000000000003,1.55,-14.079999999999998,QH-SMART-GH-01,QH-SMART-02123.speed / QH-SMART-02123.status
+QH-SMART-02124,数智农业实践研学中心_主大棚_排风机叶片,ventilation,smart,9.11,1.87,-14.079999999999998,QH-SMART-GH-01,QH-SMART-02124.speed / QH-SMART-02124.status
+QH-SMART-02125,数智农业实践研学中心_主大棚_排风机叶片,ventilation,smart,8.719999999999999,1.75,-14.079999999999998,QH-SMART-GH-01,QH-SMART-02125.speed / QH-SMART-02125.status
+QH-SMART-02126,数智农业实践研学中心_主大棚_排风机叶片,ventilation,smart,8.719999999999999,1.35,-14.079999999999998,QH-SMART-GH-01,QH-SMART-02126.speed / QH-SMART-02126.status
+QH-SMART-02127,数智农业实践研学中心_主大棚_排风机叶片,ventilation,smart,9.11,1.23,-14.079999999999998,QH-SMART-GH-01,QH-SMART-02127.speed / QH-SMART-02127.status
+QH-SMART-02128,数智农业实践研学中心_主大棚_排风机防护网,ventilation,smart,8.579999999999998,1.55,-14.020000000000003,QH-SMART-GH-01,QH-SMART-02128.speed / QH-SMART-02128.status
+QH-SMART-02129,数智农业实践研学中心_主大棚_排风机防护网,ventilation,smart,8.86,1.55,-14.020000000000003,QH-SMART-GH-01,QH-SMART-02129.speed / QH-SMART-02129.status
+QH-SMART-02130,数智农业实践研学中心_主大棚_排风机防护网,ventilation,smart,9.14,1.55,-14.020000000000003,QH-SMART-GH-01,QH-SMART-02130.speed / QH-SMART-02130.status
+QH-SMART-02131,数智农业实践研学中心_主大棚_排风机防护网,ventilation,smart,9.420000000000002,1.55,-14.020000000000003,QH-SMART-GH-01,QH-SMART-02131.speed / QH-SMART-02131.status
+QH-SMART-02132,数智农业实践研学中心_主大棚_循环风扇吊杆,ventilation,smart,9.0,3.78,26.0,QH-SMART-GH-01,QH-SMART-02132.speed / QH-SMART-02132.status
+QH-SMART-02133,数智农业实践研学中心_主大棚_循环风扇电机,ventilation,smart,9.0,4.02,26.0,QH-SMART-GH-01,QH-SMART-02133.speed / QH-SMART-02133.status
+QH-SMART-02134,数智农业实践研学中心_主大棚_循环风扇叶片,ventilation,smart,9.370000000000005,4.02,26.0,QH-SMART-GH-01,QH-SMART-02134.speed / QH-SMART-02134.status
+QH-SMART-02135,数智农业实践研学中心_主大棚_循环风扇叶片,ventilation,smart,9.0,4.39,26.0,QH-SMART-GH-01,QH-SMART-02135.speed / QH-SMART-02135.status
+QH-SMART-02136,数智农业实践研学中心_主大棚_循环风扇叶片,ventilation,smart,8.629999999999995,4.02,26.0,QH-SMART-GH-01,QH-SMART-02136.speed / QH-SMART-02136.status
+QH-SMART-02137,数智农业实践研学中心_主大棚_循环风扇叶片,ventilation,smart,9.0,3.65,26.0,QH-SMART-GH-01,QH-SMART-02137.speed / QH-SMART-02137.status
+QH-SMART-02138,数智农业实践研学中心_主大棚_循环风扇吊杆,ventilation,smart,9.0,3.78,10.0,QH-SMART-GH-01,QH-SMART-02138.speed / QH-SMART-02138.status
+QH-SMART-02139,数智农业实践研学中心_主大棚_循环风扇电机,ventilation,smart,9.0,4.02,10.0,QH-SMART-GH-01,QH-SMART-02139.speed / QH-SMART-02139.status
+QH-SMART-02140,数智农业实践研学中心_主大棚_循环风扇叶片,ventilation,smart,9.370000000000005,4.02,10.0,QH-SMART-GH-01,QH-SMART-02140.speed / QH-SMART-02140.status
+QH-SMART-02141,数智农业实践研学中心_主大棚_循环风扇叶片,ventilation,smart,9.0,4.39,10.0,QH-SMART-GH-01,QH-SMART-02141.speed / QH-SMART-02141.status
+QH-SMART-02142,数智农业实践研学中心_主大棚_循环风扇叶片,ventilation,smart,8.629999999999995,4.02,10.0,QH-SMART-GH-01,QH-SMART-02142.speed / QH-SMART-02142.status
+QH-SMART-02143,数智农业实践研学中心_主大棚_循环风扇叶片,ventilation,smart,9.0,3.65,10.0,QH-SMART-GH-01,QH-SMART-02143.speed / QH-SMART-02143.status
+QH-SMART-02144,数智农业实践研学中心_主大棚_循环风扇吊杆,ventilation,smart,9.0,3.78,-6.0,QH-SMART-GH-01,QH-SMART-02144.speed / QH-SMART-02144.status
+QH-SMART-02145,数智农业实践研学中心_主大棚_循环风扇电机,ventilation,smart,9.0,4.02,-6.0,QH-SMART-GH-01,QH-SMART-02145.speed / QH-SMART-02145.status
+QH-SMART-02146,数智农业实践研学中心_主大棚_循环风扇叶片,ventilation,smart,9.370000000000005,4.02,-6.0,QH-SMART-GH-01,QH-SMART-02146.speed / QH-SMART-02146.status
+QH-SMART-02147,数智农业实践研学中心_主大棚_循环风扇叶片,ventilation,smart,9.0,4.39,-6.0,QH-SMART-GH-01,QH-SMART-02147.speed / QH-SMART-02147.status
+QH-SMART-02148,数智农业实践研学中心_主大棚_循环风扇叶片,ventilation,smart,8.629999999999995,4.02,-6.0,QH-SMART-GH-01,QH-SMART-02148.speed / QH-SMART-02148.status
+QH-SMART-02149,数智农业实践研学中心_主大棚_循环风扇叶片,ventilation,smart,9.0,3.65,-6.0,QH-SMART-GH-01,QH-SMART-02149.speed / QH-SMART-02149.status
+QH-SMART-02150,数智农业实践研学中心_主大棚_环境控制柜,greenhouse_component,smart,12.599999999999994,1.05,31.8,QH-SMART-GH-01,
+QH-SMART-02151,数智农业实践研学中心_主大棚_控制柜操作面板,greenhouse_component,smart,12.599999999999994,1.3,32.05,QH-SMART-GH-01,
+QH-SMART-02153,数智农业实践研学中心_主大棚_环境传感器立杆,sensor,smart,10.75,1.47,22.0,QH-SMART-GH-01,QH-SMART-02153.value / QH-SMART-02153.status
+QH-SMART-02154,数智农业实践研学中心_主大棚_温湿度传感器,sensor,smart,10.75,2.45,22.0,QH-SMART-GH-01,QH-SMART-02154.value / QH-SMART-02154.status
+QH-SMART-02155,数智农业实践研学中心_主大棚_传感器状态灯,sensor,smart,10.75,2.72,22.0,QH-SMART-GH-01,QH-SMART-02155.value / QH-SMART-02155.status
+QH-SMART-02156,数智农业实践研学中心_主大棚_土壤湿度探头,sensor,smart,9.25,0.42,22.0,QH-SMART-GH-01,QH-SMART-02156.value / QH-SMART-02156.status
+QH-SMART-02157,数智农业实践研学中心_主大棚_土壤湿度传感器,sensor,smart,9.25,0.76,22.0,QH-SMART-GH-01,QH-SMART-02157.value / QH-SMART-02157.status
+QH-SMART-02158,数智农业实践研学中心_主大棚_环境传感器立杆,sensor,smart,10.75,1.47,-2.0,QH-SMART-GH-01,QH-SMART-02158.value / QH-SMART-02158.status
+QH-SMART-02159,数智农业实践研学中心_主大棚_温湿度传感器,sensor,smart,10.75,2.45,-2.0,QH-SMART-GH-01,QH-SMART-02159.value / QH-SMART-02159.status
+QH-SMART-02160,数智农业实践研学中心_主大棚_传感器状态灯,sensor,smart,10.75,2.72,-2.0,QH-SMART-GH-01,QH-SMART-02160.value / QH-SMART-02160.status
+QH-SMART-02161,数智农业实践研学中心_主大棚_土壤湿度探头,sensor,smart,9.25,0.42,-2.0,QH-SMART-GH-01,QH-SMART-02161.value / QH-SMART-02161.status
+QH-SMART-02162,数智农业实践研学中心_主大棚_土壤湿度传感器,sensor,smart,9.25,0.76,-2.0,QH-SMART-GH-01,QH-SMART-02162.value / QH-SMART-02162.status
+QH-SMART-02163,数智农业实践研学中心_主大棚_区域标识牌,greenhouse_component,smart,9.0,2.9,35.2,QH-SMART-GH-01,
+QH-SMART-02165,智能灌溉泵房,irrigation,smart,0.0,0.5,35.0,,QH-SMART-02165.flow / QH-SMART-02165.status
+QH-SMART-02166,泵房屋顶,irrigation,smart,0.0,1.12,35.0,,QH-SMART-02166.flow / QH-SMART-02166.status
+QH-SMART-02167,灌溉储液罐,irrigation,smart,3.0,1.2,33.0,,QH-SMART-02167.flow / QH-SMART-02167.status
+QH-SMART-02168,小型气象站立杆,sensor,smart,28.0,3.0,10.0,,QH-SMART-02168.value / QH-SMART-02168.status
+QH-SMART-02169,气象站横臂,sensor,smart,28.0,5.1,10.0,,QH-SMART-02169.value / QH-SMART-02169.status
+QH-SMART-02170,气象站采集箱,sensor,smart,28.0,4.1,10.0,,QH-SMART-02170.value / QH-SMART-02170.status
+QH-SMART-02171,气象站风速风向组件,sensor,smart,28.0,5.8,10.0,,QH-SMART-02171.value / QH-SMART-02171.status
+QH-SMART-02172,灌溉支管,irrigation,smart,19.0,0.12,27.0,,QH-SMART-02172.flow / QH-SMART-02172.status
+QH-SMART-02173,灌溉支管,irrigation,smart,19.0,0.12,17.0,,QH-SMART-02173.flow / QH-SMART-02173.status
+QH-SMART-02174,灌溉支管,irrigation,smart,19.0,0.12,7.0,,QH-SMART-02174.flow / QH-SMART-02174.status
+QH-SMART-02175,灌溉支管,irrigation,smart,19.0,0.12,-3.0,,QH-SMART-02175.flow / QH-SMART-02175.status
+QH-HORT-02176,园艺中心_营养液储罐,facility,hort,99.95,0.99,-30.0,,
+QH-HORT-02179,园艺中心_营养液储罐,facility,hort,102.05,0.83,-30.0,,
+QH-HORT-02182,园艺中心_水肥控制柜,irrigation,hort,101.0,0.86,-29.0,,QH-HORT-02182.flow / QH-HORT-02182.status
+QH-HORT-02183,园艺中心_控制柜屏幕,facility,hort,101.0,1.1,-28.620000000000005,,
+QH-HORT-02184,园艺中心_水肥主管,irrigation,hort,101.0,0.85,-30.0,,QH-HORT-02184.flow / QH-HORT-02184.status
+QH-HORT-02185,园艺中心_灌溉出水管,irrigation,hort,101.0,0.42,-28.200000000000003,,QH-HORT-02185.flow / QH-HORT-02185.status
+QH-PEONY-02186,芍药基地_营养液储罐,facility,peony,61.95,0.99,-36.0,,
+QH-PEONY-02189,芍药基地_营养液储罐,facility,peony,64.05,0.83,-36.0,,
+QH-PEONY-02192,芍药基地_水肥控制柜,irrigation,peony,63.0,0.86,-35.0,,QH-PEONY-02192.flow / QH-PEONY-02192.status
+QH-PEONY-02193,芍药基地_控制柜屏幕,facility,peony,63.0,1.1,-34.620000000000005,,
+QH-PEONY-02194,芍药基地_水肥主管,irrigation,peony,63.0,0.85,-36.0,,QH-PEONY-02194.flow / QH-PEONY-02194.status
+QH-PEONY-02195,芍药基地_灌溉出水管,irrigation,peony,63.0,0.42,-34.2,,QH-PEONY-02195.flow / QH-PEONY-02195.status
+QH-PEONY-02196,芍药基地_营养液储罐,facility,peony,61.95,0.99,-49.0,,
+QH-PEONY-02199,芍药基地_营养液储罐,facility,peony,64.05,0.83,-49.0,,
+QH-PEONY-02202,芍药基地_水肥控制柜,irrigation,peony,63.0,0.86,-48.0,,QH-PEONY-02202.flow / QH-PEONY-02202.status
+QH-PEONY-02203,芍药基地_控制柜屏幕,facility,peony,63.0,1.1,-47.62,,
+QH-PEONY-02204,芍药基地_水肥主管,irrigation,peony,63.0,0.85,-49.0,,QH-PEONY-02204.flow / QH-PEONY-02204.status
+QH-PEONY-02205,芍药基地_灌溉出水管,irrigation,peony,63.0,0.42,-47.2,,QH-PEONY-02205.flow / QH-PEONY-02205.status
+QH-PEONY-02206,芍药基地_营养液储罐,facility,peony,61.95,0.99,-62.0,,
+QH-PEONY-02209,芍药基地_营养液储罐,facility,peony,64.05,0.83,-62.0,,
+QH-PEONY-02212,芍药基地_水肥控制柜,irrigation,peony,63.0,0.86,-61.0,,QH-PEONY-02212.flow / QH-PEONY-02212.status
+QH-PEONY-02213,芍药基地_控制柜屏幕,facility,peony,63.0,1.1,-60.62,,
+QH-PEONY-02214,芍药基地_水肥主管,irrigation,peony,63.0,0.85,-62.0,,QH-PEONY-02214.flow / QH-PEONY-02214.status
+QH-PEONY-02215,芍药基地_灌溉出水管,irrigation,peony,63.0,0.42,-60.2,,QH-PEONY-02215.flow / QH-PEONY-02215.status
+QH-SMART-02216,数智农业_营养液储罐,facility,smart,-0.0499999999999971,0.99,37.0,,
+QH-SMART-02219,数智农业_营养液储罐,facility,smart,2.049999999999997,0.83,37.0,,
+QH-SMART-02222,数智农业_水肥控制柜,irrigation,smart,1.0,0.86,38.0,,QH-SMART-02222.flow / QH-SMART-02222.status
+QH-SMART-02223,数智农业_控制柜屏幕,facility,smart,1.0,1.1,38.38,,
+QH-SMART-02224,数智农业_水肥主管,irrigation,smart,1.0,0.85,37.0,,QH-SMART-02224.flow / QH-SMART-02224.status
+QH-SMART-02225,数智农业_灌溉出水管,irrigation,smart,1.0,0.42,38.8,,QH-SMART-02225.flow / QH-SMART-02225.status
+QH-BASE-02300,庭院照明灯杆,facility,base,96.0,1.3,14.0,,
+QH-BASE-02302,庭院照明灯杆,facility,base,83.0,1.3,14.0,,
+QH-BASE-02304,庭院照明灯杆,facility,base,47.0,1.3,20.0,,
+QH-BASE-02306,庭院照明灯杆,facility,base,25.0,1.3,-18.0,,
+QH-BASE-02308,庭院照明灯杆,facility,base,-10.0,1.3,-15.0,,
+QH-BASE-02310,庭院照明灯杆,facility,base,-35.0,1.3,-10.0,,
+QH-BASE-02312,庭院照明灯杆,facility,base,-62.0,1.3,8.0,,
+QH-BASE-02314,庭院照明灯杆,facility,base,-72.0,1.3,48.0,,

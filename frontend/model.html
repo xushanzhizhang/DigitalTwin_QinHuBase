@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>琴湖基地 · 模型预览</title>
+<link rel="icon" href="favicon.png">
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three/three.module.js",
+    "three/addons/": "./vendor/three/addons/"
+  }
+}
+</script>
+<style>
+  :root {
+    --ink: #14201f;
+    --panel: rgba(250, 252, 251, 0.88);
+    --line: rgba(20, 60, 55, 0.14);
+    --accent: #1c6b5a;
+    --muted: #6c817e;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #d9e2de; }
+  body {
+    font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+    color: var(--ink);
+  }
+  #scene { display: block; width: 100vw; height: 100vh; }
+
+  .title {
+    position: fixed; top: 20px; left: 24px; pointer-events: none;
+  }
+  .title h1 {
+    margin: 0; font-size: 17px; font-weight: 600; letter-spacing: 0.04em;
+    color: #14312c; text-shadow: 0 1px 12px rgba(255,255,255,0.7);
+  }
+  .title p {
+    margin: 4px 0 0; font-size: 11.5px; color: #4b6560; letter-spacing: 0.06em;
+    text-shadow: 0 1px 10px rgba(255,255,255,0.8);
+  }
+
+  .panel {
+    position: fixed; bottom: 22px; left: 50%; transform: translateX(-50%);
+    display: flex; align-items: center; gap: 18px;
+    padding: 10px 16px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    backdrop-filter: blur(14px);
+    box-shadow: 0 8px 30px rgba(20, 50, 45, 0.10);
+  }
+  .group { display: flex; align-items: center; gap: 6px; }
+  .group + .group { border-left: 1px solid var(--line); padding-left: 18px; }
+  .lbl { font-size: 11px; color: var(--muted); margin-right: 2px; white-space: nowrap; }
+
+  button {
+    appearance: none; border: 1px solid transparent; background: transparent;
+    color: #24413c; font: inherit; font-size: 12px;
+    padding: 6px 10px; border-radius: 7px; cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    white-space: nowrap;
+  }
+  button:hover { background: rgba(28, 107, 90, 0.09); }
+  button.on { background: var(--accent); color: #fff; }
+
+  input[type=range] {
+    width: 132px; accent-color: var(--accent); cursor: pointer;
+  }
+  .timeval {
+    font-variant-numeric: tabular-nums; font-size: 12px;
+    color: #24413c; min-width: 40px;
+  }
+
+  #loader {
+    position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+    background: #dde6e2; z-index: 20; transition: opacity 0.5s;
+    flex-direction: column; gap: 14px;
+  }
+  #loader.done { opacity: 0; pointer-events: none; }
+  .spinner {
+    width: 26px; height: 26px; border: 2px solid rgba(28,107,90,0.2);
+    border-top-color: #1c6b5a; border-radius: 50%;
+    animation: spin 0.9s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  #loader-text { font-size: 12px; color: #4b6560; letter-spacing: 0.05em; }
+
+  .hint {
+    position: fixed; right: 24px; bottom: 26px; font-size: 11px;
+    color: #4b6560; text-align: right; line-height: 1.7;
+    text-shadow: 0 1px 10px rgba(255,255,255,0.8);
+  }
+</style>
+</head>
+<body>
+
+<canvas id="scene"></canvas>
+
+<div class="title">
+  <h1>琴湖基地 · 三维模型</h1>
+  <p>徐州生物工程职业技术学院 · 农林实训基地</p>
+</div>
+
+<div id="loader">
+  <div class="spinner"></div>
+  <div id="loader-text">正在生成地形与水体…</div>
+</div>
+
+<div class="panel">
+  <div class="group">
+    <span class="lbl">视角</span>
+    <button data-view="aerial" class="on">斜俯视</button>
+    <button data-view="overview">鸟瞰</button>
+    <button data-view="top">正俯视</button>
+    <button data-view="lake">湖与桥</button>
+    <button data-view="hort">园艺中心</button>
+    <button data-view="peony">芍药基地</button>
+    <button data-view="smart">研学中心</button>
+  </div>
+  <div class="group">
+    <span class="lbl">光照</span>
+    <input id="hour" type="range" min="6" max="19" step="0.25" value="10">
+    <span class="timeval" id="hourval">10:00</span>
+  </div>
+  <div class="group">
+    <button id="toggle-shadow" class="on">阴影</button>
+  </div>
+</div>
+
+<div class="hint">
+  左键拖动旋转 · 滚轮缩放 · 右键平移<br>
+  按 1–7 切换视角
+</div>
+
+<script type="module" src="js/modelview.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# 琴湖基地智慧农业数字孪生 —— Python 运行依赖
+# 安装：python -m pip install -r requirements.txt
+# 说明：本项目后端仅直接依赖 FastAPI 与 Uvicorn，其余（pydantic、starlette、anyio、
+#       websockets 等）由它们自动安装；前端依赖已全部本地 vendor，无需 npm。
+
+fastapi>=0.162.0
+uvicorn[standard]>=0.54.0

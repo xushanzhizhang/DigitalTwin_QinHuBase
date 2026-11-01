@@ -1,0 +1,30 @@
+# 开发辅助目录（截图、放大预览、临时脚本、本地记忆），不纳入版本库
+_shots/
+_tmp_preview/
+_tools/
+.workbuddy/
+
+# 运行时数据（SQLite 数据库及 WAL 文件）
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# 建模目录中的冗余压缩包与非运行时分区 GLB（运行时只需要主 GLB + manifest）
+场景图及建模要求/建模/建模.zip
+场景图及建模要求/建模/qinhu_lake.glb
+场景图及建模要求/建模/qinhu_hort.glb
+场景图及建模要求/建模/qinhu_peony.glb
+场景图及建模要求/建模/qinhu_smart.glb
+
+# 临时排查截图
+ghost_view.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 系统
+.DS_Store
+Thumbs.db

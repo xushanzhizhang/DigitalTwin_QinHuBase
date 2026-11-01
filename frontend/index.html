@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>琴湖基地 · 智慧农业数字孪生</title>
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three/three.module.js",
+    "three/addons/": "./vendor/three/addons/"
+  }
+}
+</script>
+</head>
+<body>
+
+<div id="viewport">
+  <canvas id="scene"></canvas>
+  <div id="labels" class="labels"></div>
+</div>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-mark">
+      <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true">
+        <path d="M16 3c5 4.4 8 8.6 8 12.4A8 8 0 0 1 8 15.4C8 11.6 11 7.4 16 3z"
+              fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M16 28V12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        <circle cx="16" cy="15" r="4.6" fill="currentColor" opacity=".22"/>
+      </svg>
+    </div>
+    <div class="brand-text">
+      <h1>琴湖基地 · 智慧农业数字孪生</h1>
+      <p>徐州生物工程职业技术学院 · 农林实训基地</p>
+    </div>
+  </div>
+
+  <div class="topbar-center">
+    <div class="clock-block">
+      <span id="sim-time" class="clock">--:--:--</span>
+      <span id="sim-date" class="date">----------</span>
+    </div>
+    <div class="wx-block">
+      <div class="wx-item"><i class="ico ico-sun"></i><span id="wx-temp">--</span>℃</div>
+      <div class="wx-item"><i class="ico ico-drop"></i><span id="wx-rh">--</span>%</div>
+      <div class="wx-item"><i class="ico ico-wind"></i><span id="wx-wind">--</span>m/s</div>
+      <div class="wx-item"><i class="ico ico-par"></i><span id="wx-par">--</span>μmol</div>
+    </div>
+  </div>
+
+  <div class="topbar-right">
+    <div class="seg" id="speed-seg" role="group" aria-label="仿真倍速">
+      <button data-speed="1">1×</button>
+      <button data-speed="60" class="on">60×</button>
+      <button data-speed="300">300×</button>
+      <button data-speed="1200">1200×</button>
+    </div>
+    <div class="mode-chip" id="mode-chip">
+      <span class="dot"></span><span id="mode-text">全自动</span>
+    </div>
+  </div>
+</header>
+
+<aside class="panel panel-left">
+  <section class="card kpi-card">
+    <div class="card-head"><h2>基地总览</h2><span class="card-sub" id="kpi-sub">实时</span></div>
+    <div class="kpi-grid">
+      <div class="kpi">
+        <span class="kpi-val" id="kpi-health">--</span><span class="kpi-unit">分</span>
+        <span class="kpi-lab">综合健康度</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-val" id="kpi-energy">--</span><span class="kpi-unit">kWh</span>
+        <span class="kpi-lab">累计能耗</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-val" id="kpi-water">--</span><span class="kpi-unit">L</span>
+        <span class="kpi-lab">累计灌溉</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-val" id="kpi-decisions">--</span><span class="kpi-unit">条</span>
+        <span class="kpi-lab">智能决策</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="card zones-card">
+    <div class="card-head"><h2>功能分区</h2><span class="card-sub">点击定位</span></div>
+    <div id="zone-list" class="zone-list"></div>
+  </section>
+
+  <section class="card nodes-card">
+    <div class="card-head">
+      <h2>传感网络</h2>
+      <span class="card-sub"><b id="node-online">--</b>/<span id="node-total">--</span> 在线</span>
+    </div>
+    <div id="node-list" class="node-list"></div>
+  </section>
+</aside>
+
+<aside class="panel panel-right">
+  <section class="card chart-card">
+    <div class="card-head">
+      <h2>环境趋势</h2>
+      <div class="tabs" id="chart-tabs">
+        <button data-range="180" class="on">3h</button>
+        <button data-range="720">12h</button>
+        <button data-range="1440">24h</button>
+      </div>
+    </div>
+    <div id="chart" class="chart"></div>
+    <div class="chart-legend" id="chart-legend"></div>
+  </section>
+
+  <section class="card agent-card">
+    <div class="card-head">
+      <h2>决策 Agent</h2>
+      <div class="mode-switch" id="mode-switch">
+        <button data-mode="auto" class="on">自动</button>
+        <button data-mode="advise">建议</button>
+        <button data-mode="manual">手动</button>
+      </div>
+    </div>
+    <div id="agent-summary" class="agent-summary"></div>
+    <div class="feed-head">
+      <span>决策流</span>
+      <span class="feed-stat" id="feed-stat">--</span>
+    </div>
+    <div id="decision-feed" class="decision-feed"></div>
+  </section>
+</aside>
+
+<footer class="bottombar">
+  <div class="view-btns" id="view-btns">
+    <button data-view="overview" class="on">全景</button>
+    <button data-view="lake">琴湖</button>
+    <button data-view="hort">园艺中心</button>
+    <button data-view="peony">芍药基地</button>
+    <button data-view="digital">研学中心</button>
+    <button data-view="top">顶视</button>
+  </div>
+  <div class="scenario-btns" id="scenario-btns">
+    <span class="sc-label">天气情景</span>
+    <button data-sc="sunny" class="on">晴</button>
+    <button data-sc="cloudy">阴</button>
+    <button data-sc="rainy">雨</button>
+    <button data-sc="heatwave">高温</button>
+    <button data-sc="coldwave">寒潮</button>
+  </div>
+  <div class="conn" id="conn"><span class="dot"></span><span id="conn-text">连接中…</span></div>
+</footer>
+
+<div class="drawer-mask" id="drawer-mask"></div>
+<aside class="drawer" id="drawer">
+  <div class="drawer-head">
+    <div>
+      <span class="drawer-tag" id="dr-tag">决策详情</span>
+      <h3 id="dr-title">—</h3>
+    </div>
+    <button class="drawer-close" id="dr-close" aria-label="关闭">×</button>
+  </div>
+  <div class="drawer-body" id="dr-body"></div>
+</aside>
+
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <div class="loader-ring"></div>
+    <p id="loader-text">正在构建孪生场景…</p>
+    <div class="loader-bar"><i id="loader-bar"></i></div>
+  </div>
+</div>
+
+<script src="vendor/echarts.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
