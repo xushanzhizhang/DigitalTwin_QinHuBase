@@ -23,7 +23,7 @@ import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { makeWaterMaterial } from './water.js';
 import { getTextures, tile } from './textures.js';
 
-const MODEL_URL = '/assets/model/qinhu_base_digital_twin.glb';
+const MODEL_URL = '/assets/model/qinhu_base_digital_twin_realistic.glb';
 const MANIFEST_URL = '/assets/model/scene_manifest.json';
 
 /** 区域组名 → 业务 id */

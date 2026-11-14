@@ -11,6 +11,7 @@ data/*.db-wal
 
 # 建模目录中的冗余压缩包与非运行时分区 GLB（运行时只需要主 GLB + manifest）
 场景图及建模要求/建模/建模.zip
+场景图及建模要求/建模/qinhu_base_digital_twin_realistic_v1.glb
 场景图及建模要求/建模/qinhu_lake.glb
 场景图及建模要求/建模/qinhu_hort.glb
 场景图及建模要求/建模/qinhu_peony.glb

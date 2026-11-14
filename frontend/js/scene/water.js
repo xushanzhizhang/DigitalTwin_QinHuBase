@@ -18,8 +18,8 @@ export function makeWaterMaterial(normalTex) {
     uniforms: {
       uTime: { value: 0 },
       uNormal: { value: tex },
-      uDeep: { value: new THREE.Color('#22301f') },
-      uShallow: { value: new THREE.Color('#45532f') },
+      uDeep: { value: new THREE.Color('#29351c') },
+      uShallow: { value: new THREE.Color('#5d622e') },
       uSky: { value: new THREE.Color('#9fbcc6') },
       uSun: { value: new THREE.Vector3(0.4, 0.7, 0.3) },
       uSunColor: { value: new THREE.Color('#fff3d8') },
