@@ -84,15 +84,6 @@ export class HUD {
       if (window.__twinView) window.__twinView(b.dataset.view);
     });
 
-    // 天气情景
-    $('#scenario-btns').addEventListener('click', (e) => {
-      const b = e.target.closest('button');
-      if (!b) return;
-      $$('#scenario-btns button').forEach(x => x.classList.remove('on'));
-      b.classList.add('on');
-      this.onCommand({ action: 'set_scenario', value: b.dataset.sc });
-    });
-
     // 抽屉关闭
     $('#dr-close').addEventListener('click', () => this.closeDrawer());
     $('#drawer-mask').addEventListener('click', () => this.closeDrawer());

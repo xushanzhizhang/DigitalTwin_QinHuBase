@@ -7,9 +7,8 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
-import { createEnvironment, updateSky, updateRain } from './scene/env.js';
+import { createEnvironment, updateSky } from './scene/env.js';
 import { loadSite, buildViews } from './scene/site.js';
-import { createReflection, updateReflection } from './scene/water.js';
 import { LabelLayer, DotLayer } from './scene/labels.js';
 import { createBinding, ZONE_TO_REGION } from './twin/binding.js';
 import { HUD } from './ui/hud.js';
@@ -67,7 +66,6 @@ const hud = new HUD({
 /* ================================================================== */
 let site = null;
 let views = null;
-let refl = null;
 let binding = null;
 let siteData = null;
 
@@ -191,12 +189,9 @@ async function boot() {
     });
     views = buildViews(site);
 
-    hud.setLoader(62, '正在准备水面与反射…');
-    refl = createReflection(512);
-    refl.planeY = site.waterY;
-    if (site.water) refl.hide.push(site.water.mesh);
+    hud.setLoader(62, '正在设置初始视角…');
 
-    // 初始相机直接落在大门第一视角（自东向西），不再先放到高空再俯冲，
+    // 初始相机直接落在东门第一视角（自东向西），不再先放到高空再俯冲，
     // 避免白色灯头/高光在俯冲过渡中沿屏幕快速划过，形成"一闪而过的白点"。
     const firstView = views.entry || views.overview;
     camera.position.set(...firstView.pos);
@@ -238,7 +233,6 @@ async function boot() {
 /* 7. 渲染循环                                                         */
 /* ================================================================== */
 const clock = new THREE.Clock();
-let waterTime = 0;
 
 function resize() {
   const w = window.innerWidth, h = window.innerHeight;
@@ -279,29 +273,21 @@ function animate() {
 
   if (latestFrame) {
     const e = latestFrame.env;
+    // 已移除天气情景：不再有阴晴雨雪切换，云量/雨量固定为 0（永晴）；
+    // 仍保留太阳高度角/方位角驱动的昼夜光照与星空变化。
     updateSky(env, {
       elev: e.solar_elevation,
       az: e.solar_azimuth,
-      cloud: e.cloud,
-      rain: e.rain,
+      cloud: 0,
+      rain: 0,
     });
     if (binding) binding.updateNight(env, e.solar_elevation <= 0);
-    updateRain(env, dt, camera);
   }
 
   if (site) {
-    if (site.water) {
-      waterTime += dt;
-      const m = site.water.mat;
-      m.uniforms.uTime.value = waterTime;
-      m.uniforms.uSun.value.copy(env.sun.position).normalize();
-      m.uniforms.uSunColor.value.copy(env.sun.color);
-      m.uniforms.uFog.value.copy(scene.fog.color);
-      m.uniforms.uFogDensity.value = scene.fog.density;
-    }
+    // 模型自带水面保持原样，不再替换材质、不做平面反射或额外波动动画。
+    // site.update 为兼容保留的空操作（no-op）。
     site.update(dt);
-    updateReflection(renderer, scene, camera, refl,
-      site.water ? [site.water.mat] : [], site.waterY);
   }
 
   if (binding && latestFrame) binding.update(latestFrame, latestAgent);
@@ -320,7 +306,6 @@ window.__model = {
   renderer, scene, camera, env, controls,
   get site() { return site; },
   get views() { return views; },
-  get refl() { return refl; },
   get binding() { return binding; },
 };
 window.__THREE = THREE;
